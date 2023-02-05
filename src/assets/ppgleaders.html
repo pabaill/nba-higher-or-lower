@@ -1,0 +1,2382 @@
+
+<!DOCTYPE html>
+<html data-version="klecko-" data-root="/home/bbr/build" lang="en" class="no-js" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+    <link rel="dns-prefetch" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241" />
+    <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async=true>
+    (function() {
+	var host = window.location.hostname;
+	var element = document.createElement('script');
+	var firstScript = document.getElementsByTagName('script')[0];
+	var url = 'https://quantcast.mgr.consensu.org'
+	    .concat('/choice/', 'XwNYEpNeFfhfr', '/', host, '/choice.js')
+	var uspTries = 0;
+	var uspTriesLimit = 3;
+	element.async = true;
+	element.type = 'text/javascript';
+	element.src = url;
+	
+	firstScript.parentNode.insertBefore(element, firstScript);
+	
+	function makeStub() {
+	    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+	    var queue = [];
+	    var win = window;
+	    var cmpFrame;
+	    
+	    function addFrame() {
+		var doc = win.document;
+		var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+		
+		if (!otherCMP) {
+		    if (doc.body) {
+			var iframe = doc.createElement('iframe');
+			
+			iframe.style.cssText = 'display:none';
+			iframe.name = TCF_LOCATOR_NAME;
+			doc.body.appendChild(iframe);
+		    } else {
+			setTimeout(addFrame, 5);
+		    }
+		}
+		return !otherCMP;
+	    }
+	    
+	    function tcfAPIHandler() {
+		var gdprApplies;
+		var args = arguments;
+		
+		if (!args.length) {
+		    return queue;
+		} else if (args[0] === 'setGdprApplies') {
+		    if (
+			args.length > 3 &&
+			    args[2] === 2 &&
+			    typeof args[3] === 'boolean'
+		    ) {
+			gdprApplies = args[3];
+			if (typeof args[2] === 'function') {
+			    args[2]('set', true);
+			}
+		    }
+		} else if (args[0] === 'ping') {
+		    var retr = {
+			gdprApplies: gdprApplies,
+			cmpLoaded: false,
+			cmpStatus: 'stub'
+		    };
+		    
+		    if (typeof args[2] === 'function') {
+			args[2](retr);
+		    }
+		} else {
+		    queue.push(args);
+		}
+	    }
+	    
+	    function postMessageEventHandler(event) {
+		var msgIsString = typeof event.data === 'string';
+		var json = {};
+		
+		try {
+		    if (msgIsString) {
+			json = JSON.parse(event.data);
+		    } else {
+			json = event.data;
+		    }
+		} catch (ignore) {}
+		
+		var payload = json.__tcfapiCall;
+		
+		if (payload) {
+		    window.__tcfapi(
+			payload.command,
+			payload.version,
+			function(retValue, success) {
+			    var returnMsg = {
+				__tcfapiReturn: {
+				    returnValue: retValue,
+				    success: success,
+				    callId: payload.callId
+				}
+			    };
+			    if (msgIsString) {
+				returnMsg = JSON.stringify(returnMsg);
+			    }
+			    event.source.postMessage(returnMsg, '*');
+			},
+			payload.parameter
+		    );
+		}
+	    }
+	    
+	    while (win) {
+		try {
+		    if (win.frames[TCF_LOCATOR_NAME]) {
+			cmpFrame = win;
+			break;
+		    }
+		} catch (ignore) {}
+		
+		if (win === window.top) {
+		    break;
+		}
+		win = win.parent;
+	    }
+	    if (!cmpFrame) {
+		addFrame();
+		win.__tcfapi = tcfAPIHandler;
+		win.addEventListener('message', postMessageEventHandler, false);
+	    }
+	};
+	
+	makeStub();
+	
+	var uspStubFunction = function() {
+	    var arg = arguments;
+	    if (typeof window.__uspapi !== uspStubFunction) {
+		setTimeout(function() {
+		    if (typeof window.__uspapi !== 'undefined') {
+			window.__uspapi.apply(window.__uspapi, arg);
+		    }
+		}, 500);
+	    }
+	};
+	
+	var checkIfUspIsReady = function() {
+	    uspTries++;
+	    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+		console.warn('USP is not accessible');
+	    } else {
+		clearInterval(uspInterval);
+	    }
+	};
+	
+	if (typeof window.__uspapi === 'undefined') {
+	    window.__uspapi = uspStubFunction;
+	    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+	}
+    })();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+    
+    
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayerZypmedia','GTM-ML9M539');</script>
+<!-- End Google Tag Manager -->
+
+    <title>NBA &amp; ABA Year-by-Year Top 10 Leaders and Records for Points Per Game | Basketball-Reference.com</title>
+
+    
+    
+    <meta name="Description" content="NBA &amp; ABA Year-by-Year Top 10 Leaders and Records for Points Per Game">
+    <link rel="canonical" href="https://www.basketball-reference.com/leaders/pts_per_g_top_10.html" />
+
+
+<!-- include:start  ="/inc/klecko_header_full_bbr.html_f" -->
+<!-- yes:cookie regular load the cached css -->
+<script>function gup(n) {n = n.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]'); var r = new RegExp('[\\?&]'+n+'=([^&#]*)'); var re = r.exec(location.search);   return re === null?'':decodeURIComponent(re[1].replace(/\+/g,' '));}; document.srdev = gup('srdev')</script>
+<link rel="preconnect" href="https://d2p3bygnnzw9w3.cloudfront.net" crossorigin>
+<link rel="preconnect" href="https://www.google-analytics.com"  crossorigin>
+<link rel="preconnect" href="https://www.googletagservices.com" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/js/bbr/sr-min.js" as="script" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/icons/sr_icons-min.svg?bbr" as="fetch" crossorigin>
+<link rel="preload"    href="https://www.basketball-reference.com/short/inc/main_nav_menu.json" as="fetch" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201604190/images/chosen-sprite.png" as="image" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/css/bbr/sr-min.css" as="style"    crossorigin>
+
+<!-- CSS start -->
+<link rel="stylesheet" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/css/bbr/sr-min.css" type="text/css"
+      onload="if (document.srdev) { this.href = 'https://d2p3bygnnzw9w3.cloudfront.net/nocdn/dev/'.concat(document.srdev.substr(0,2),'/css/bbr/sr.css'); }" />
+<!-- CSS END -->
+
+<!-- JS START -->
+<script class="allowed">var sr_is_production = true;
+function vjs_getUrlParameter(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var t=new RegExp("[\\?&]"+e+"=([^&#]*)").exec(location.search);return null===t?"":decodeURIComponent(t[1].replace(/\+/g," "))}document.lang="","/es/"===window.location.pathname.substr(0,4)?document.lang="es":"/pt/"===window.location.pathname.substr(0,4)?document.lang="pt":"/fr/"===window.location.pathname.substr(0,4)?document.lang="fr":"/it/"===window.location.pathname.substr(0,4)?document.lang="it":"/de/"===window.location.pathname.substr(0,4)?document.lang="de":(window.location.pathname.substr(0,4),document.lang="en"),vjs_getUrlParameter("lang")&&(document.lang=vjs_getUrlParameter("lang")),document.srdev=null,vjs_getUrlParameter("srdev")&&(document.srdev=vjs_getUrlParameter("srdev"));var log_performance=!0,is_new_jscss_version=!1,sr_detect_operaMini=-1<navigator.userAgent.indexOf("Opera Mini");sr_detect_operaMini&&((el=document.querySelector("html")).className=el.className.concat(" operamini"));var sr_detect_firefox=-1<navigator.userAgent.indexOf("Firefox");sr_detect_firefox&&((el=document.querySelector("html")).className=el.className.concat(" firefox"));var sr_detect_firefoxMobile=-1<navigator.userAgent.indexOf("Firefox")&&(-1<navigator.userAgent.indexOf("Mobile")||-1<navigator.userAgent.indexOf("Tablet"));sr_detect_firefoxMobile&&((el=document.querySelector("html")).className=el.className.concat(" firefox-mobile"));var el,sr_detect_ie=function(){var e=window.navigator.userAgent;if(0<e.indexOf("Trident/7.0"))return 11;if(0<e.indexOf("Trident/6.0"))return 10;if(0<e.indexOf("Trident/5.0"))return 9;for(var t=3,n=document.createElement("div"),r=n.getElementsByTagName("i");n.innerHTML="\x3c!--[if gt IE "+ ++t+"]><i></i><![endif]--\x3e",r[0];);return 4<t&&t}(),sr_detect_edge=!sr_detect_ie&&!!window.StyleMedia,sr_detect_safari=/Safari/.test(navigator.userAgent)&&/Apple Computer/.test(navigator.vendor),className="no-js";(el=document.querySelector("html")).classList?el.classList.remove(className):el.className=el.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|)","gi")," "),el.className=el.className.concat(" js"),function(a,u,f){function m(e,t){return typeof e===t}function p(e){return"function"!=typeof u.createElement?u.createElement(e):y?u.createElementNS.call(u,"http://www.w3.org/2000/svg",e):u.createElement.apply(u,arguments)}function o(e,t,n,r){var o,i,a,s,l="modernizr",c=p("div"),d=function(){var e=u.body;return e||((e=p(y?"svg":"body")).fake=!0),e}();if(parseInt(n,10))for(;n--;)(a=p("div")).id=r?r[n]:l+(n+1),c.appendChild(a);return(o=p("style")).type="text/css",o.id="s"+l,(d.fake?d:c).appendChild(o),d.appendChild(c),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(u.createTextNode(e)),c.id=l,d.fake&&(d.style.background="",d.style.overflow="hidden",s=_.style.overflow,_.style.overflow="hidden",_.appendChild(d)),i=t(c,e),d.fake?(d.parentNode.removeChild(d),_.style.overflow=s,_.offsetHeight):c.parentNode.removeChild(c),!!i}function h(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function s(e,t){return function(){return e.apply(t,arguments)}}function i(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function v(e,t){var n=e.length;if("CSS"in a&&"supports"in a.CSS){for(;n--;)if(a.CSS.supports(i(e[n]),t))return!0;return!1}if("CSSSupportsRule"in a){for(var r=[];n--;)r.push("("+i(e[n])+":"+t+")");return o("@supports ("+(r=r.join(" or "))+") { #modernizr { position: absolute; } }",function(e){return"absolute"==function(e,t,n){var r;if("getComputedStyle"in a){r=getComputedStyle.call(a,e,t);var o=a.console;if(null!==r)n&&(r=r.getPropertyValue(n));else if(o){o[o.error?"error":"log"].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else r=!t&&e.currentStyle&&e.currentStyle[n];return r}(e,null,"position")})}return f}function r(e,t,n,r,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+z.join(i+" ")+i).split(" ");return m(t,"string")||m(t,"undefined")?function(e,t,n,r){function o(){a&&(delete T.style,delete T.modElem)}if(r=!m(r,"undefined")&&r,!m(n,"undefined")){var i=v(e,n);if(!m(i,"undefined"))return i}for(var a,s,l,c,d,u=["modernizr","tspan","samp"];!T.style&&u.length;)a=!0,T.modElem=p(u.shift()),T.style=T.modElem.style;for(l=e.length,s=0;s<l;s++)if(c=e[s],d=T.style[c],!~(""+c).indexOf("-")||(c=h(c)),T.style[c]!==f){if(r||m(n,"undefined"))return o(),"pfx"!=t||c;try{T.style[c]=n}catch(e){}if(T.style[c]!=d)return o(),"pfx"!=t||c}return o(),!1}(a,t,r,o):function(e,t,n){var r;for(var o in e)if(e[o]in t)return!1===n?e[o]:m(r=t[e[o]],"function")?s(r,n||t):r;return!1}(a=(e+" "+M.join(i+" ")+i).split(" "),t,n)}function e(e,t,n){return r(e,f,f,t,n)}var l=[],c=[],t={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){c.push({name:e,fn:t,options:n})},addAsyncTest:function(e){c.push({name:null,fn:e})}},d=function(){};d.prototype=t,(d=new d).addTest("cookies",function(){try{u.cookie="cookietest=1";var e=-1!=u.cookie.indexOf("cookietest=");return u.cookie="cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT",e}catch(e){return!1}}),d.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}}),d.addTest("sessionstorage",function(){var e="modernizr";try{return sessionStorage.setItem(e,e),sessionStorage.removeItem(e),!0}catch(e){return!1}}),d.addTest("cors","XMLHttpRequest"in a&&"withCredentials"in new XMLHttpRequest),d.addTest("history",function(){var e=navigator.userAgent;return(-1===e.indexOf("Android 2.")&&-1===e.indexOf("Android 4.0")||-1===e.indexOf("Mobile Safari")||-1!==e.indexOf("Chrome")||-1!==e.indexOf("Windows Phone")||"file:"===location.protocol)&&(a.history&&"pushState"in a.history)});var g=t._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];t._prefixes=g;var _=u.documentElement,y="svg"===_.nodeName.toLowerCase();y||function(e,a){function u(e,t){var n=e.createElement("p"),r=e.getElementsByTagName("head")[0]||e.documentElement;return n.innerHTML="x<style>"+t+"</style>",r.insertBefore(n.lastChild,r.firstChild)}function f(){var e=g.elements;return"string"==typeof e?e.split(" "):e}function m(e){var t=v[e[d]];return t||(t={},h++,e[d]=h,v[h]=t),t}function r(e,t,n){return t=t||a,s?t.createElement(e):!(r=(n=n||m(t)).cache[e]?n.cache[e].cloneNode():c.test(e)?(n.cache[e]=n.createElem(e)).cloneNode():n.createElem(e)).canHaveChildren||l.test(e)||r.tagUrn?r:n.frag.appendChild(r);var r}function o(e){var t=m(e=e||a);return!g.shivCSS||n||t.hasCSS||(t.hasCSS=!!u(e,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),s||function(t,n){n.cache||(n.cache={},n.createElem=t.createElement,n.createFrag=t.createDocumentFragment,n.frag=n.createFrag()),t.createElement=function(e){return g.shivMethods?r(e,t,n):n.createElem(e)},t.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+f().join().replace(/[\w\-:]+/g,function(e){return n.createElem(e),n.frag.createElement(e),'c("'+e+'")'})+");return n}")(g,n.frag)}(e,t),e}function p(e){for(var t,n=e.attributes,r=n.length,o=e.ownerDocument.createElement(w+":"+e.nodeName);r--;)(t=n[r]).specified&&o.setAttribute(t.nodeName,t.nodeValue);return o.style.cssText=e.style.cssText,o}function t(s){function l(){clearTimeout(e._removeSheetTimer),c&&c.removeNode(!0),c=null}var c,d,e=m(s),t=s.namespaces,n=s.parentWindow;return!x||s.printShived||(void 0===t[w]&&t.add(w),n.attachEvent("onbeforeprint",function(){l();for(var e,t,n,r=s.styleSheets,o=[],i=r.length,a=Array(i);i--;)a[i]=r[i];for(;n=a.pop();)if(!n.disabled&&y.test(n.media)){try{t=(e=n.imports).length}catch(e){t=0}for(i=0;i<t;i++)a.push(e[i]);try{o.push(n.cssText)}catch(e){}}o=function(e){for(var t,n=e.split("{"),r=n.length,o=RegExp("(^|[\\s,>+~])("+f().join("|")+")(?=[[\\s,>+~#.:]|)","gi"),i="1"+w+"\\:2";r--;)(t=n[r]=n[r].split("}"))[t.length-1]=t[t.length-1].replace(o,i),n[r]=t.join("}");return n.join("{")}(o.reverse().join("")),d=function(e){for(var t,n=e.getElementsByTagName("*"),r=n.length,o=RegExp("^(?:"+f().join("|")+")","i"),i=[];r--;)t=n[r],o.test(t.nodeName)&&i.push(t.applyElement(p(t)));return i}(s),c=u(s,o)}),n.attachEvent("onafterprint",function(){(function(e){for(var t=e.length;t--;)e[t].removeNode()})(d),clearTimeout(e._removeSheetTimer),e._removeSheetTimer=setTimeout(l,500)}),s.printShived=!0),s}var n,s,i=e.html5||{},l=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)/i,c=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)/i,d="_html5shiv",h=0,v={};!function(){try{var e=a.createElement("a");e.innerHTML="<xyz></xyz>",n="hidden"in e,s=1==e.childNodes.length||function(){a.createElement("a");var e=a.createDocumentFragment();return void 0===e.cloneNode||void 0===e.createDocumentFragment||void 0===e.createElement}()}catch(e){s=n=!0}}();var g={elements:i.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video",version:"3.7.3",shivCSS:!1!==i.shivCSS,supportsUnknownElements:s,shivMethods:!1!==i.shivMethods,type:"default",shivDocument:o,createElement:r,createDocumentFragment:function(e,t){if(e=e||a,s)return e.createDocumentFragment();for(var n=(t=t||m(e)).frag.cloneNode(),r=0,o=f(),i=o.length;r<i;r++)n.createElement(o[r]);return n},addElements:function(e,t){var n=g.elements;"string"!=typeof n&&(n=n.join(" ")),"string"!=typeof e&&(e=e.join(" ")),g.elements=n+" "+e,o(t)}};e.html5=g,o(a);var _,y=/^|\b(?:all|print)\b/,w="html5shiv",x=!(s||(_=a.documentElement,void 0===a.namespaces||void 0===a.parentWindow||void 0===_.applyElement||void 0===_.removeNode||void 0===e.attachEvent));g.type+=" print",(g.shivPrint=t)(a),"object"==typeof module&&module.exports&&(module.exports=g)}(void 0!==a?a:this,u),d.addTest("csspositionsticky",function(){var e="position:",t=p("a").style;return t.cssText=e+g.join("sticky;"+e).slice(0,-e.length),-1!==t.position.indexOf("sticky")});var w,n=(w=!("onblur"in u.documentElement),function(e,t){var n;return!!e&&(t&&"string"!=typeof t||(t=p(t||"div")),!(n=(e="on"+e)in t)&&w&&(t.setAttribute||(t=p("div")),t.setAttribute(e,""),n="function"==typeof t[e],t[e]!==f&&(t[e]=f),t.removeAttribute(e)),n)});t.hasEvent=n;var x=t.testStyles=o;d.addTest("touchevents",function(){var t;if("ontouchstart"in a||a.DocumentTouch&&u instanceof DocumentTouch)t=!0;else{var e=["@media (",g.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");x(e,function(e){t=9===e.offsetTop})}return t});var b="Moz O ms Webkit",M=t._config.usePrefixes?b.toLowerCase().split(" "):[];t._domPrefixes=M,d.addTest("pointerevents",function(){var e=!1,t=M.length;for(e=d.hasEvent("pointerdown");t--&&!e;)n(M[t]+"pointerdown")&&(e=!0);return e});var z=t._config.usePrefixes?b.split(" "):[];t._cssomPrefixes=z;function S(e){var t,n=g.length,r=a.CSSRule;if(void 0===r)return f;if(!e)return!1;if((t=(e=e.replace(/^@/,"")).replace(/-/g,"_").toUpperCase()+"_RULE")in r)return"@"+e;for(var o=0;o<n;o++){var i=g[o];if(i.toUpperCase()+"_"+t in r)return"@-"+i.toLowerCase()+"-"+e}return!1}t.atRule=S;var E={elem:p("modernizr")};d._q.push(function(){delete E.elem});var T={style:E.elem.style};d._q.unshift(function(){delete T.style}),t.testAllProps=r;var C=t.prefixed=function(e,t,n){return 0===e.indexOf("@")?S(e):(-1!=e.indexOf("-")&&(e=h(e)),t?r(e,t,n):r(e,"pfx"))};d.addTest("matchmedia",!!C("matchMedia",a)),t.testAllProps=e,d.addTest("flexwrap",e("flexWrap","wrap",!0)),function(){var e,t,n,r,o,i;for(var a in c)if(c.hasOwnProperty(a)){if(e=[],(t=c[a]).name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(r=m(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)1===(i=e[o].split(".")).length?d[i[0]]=r:(!d[i[0]]||d[i[0]]instanceof Boolean||(d[i[0]]=new Boolean(d[i[0]])),d[i[0]][i[1]]=r),l.push((r?"":"no-")+i.join("-"))}}(),function(e){var t=_.className,n=d._config.classPrefix||"";if(y&&(t=t.baseVal),d._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|)");t=t.replace(r,"1"+n+"js2")}d._config.enableClasses&&(t+=" "+n+e.join(" "+n),y?_.className.baseVal=t:_.className=t)}(l),delete t.addTest,delete t.addAsyncTest;for(var N=0;N<d._q.length;N++)d._q[N]();a.Modernizr=d}(window,document),Modernizr.viewport_width=Math.max(document.documentElement.clientWidth,window.innerWidth||0),Modernizr.viewport_height=Math.max(document.documentElement.clientHeight,window.innerHeight||0),Modernizr.narrow=Modernizr.viewport_width<=704,Modernizr.constrained=Modernizr.viewport_width<=1200,Modernizr.site_menu=Modernizr.viewport_width<=1020?"button":"nav_bar",Modernizr.touch=Modernizr.touchevents||Modernizr.pointerevents&&(0<navigator.MaxTouchPoints||0<navigator.msMaxTouchPoints),Modernizr.phone=Modernizr.narrow&&Modernizr.touch,Modernizr.tablet=Modernizr.viewport_width<1075&&Modernizr.touch,Modernizr.desktop=!Modernizr.constrained&&!Modernizr.touch,Modernizr.laptop=!(Modernizr.desktop||Modernizr.tablet||Modernizr.phone);var patt=new RegExp("hideallads");Modernizr.adfree=patt.test(window.location.href);var sr_html=document.querySelector("html"),cn=sr_html.className;Modernizr.phone?sr_html.className=cn.concat(" phone"):Modernizr.tablet?sr_html.className=cn.concat(" tablet"):(Modernizr.desktop||Modernizr.laptop)&&(sr_html.className=cn.concat(" desktop"));var sr_host_parts=window.location.hostname.split(".");cn=sr_html.className;Modernizr.is_build=Modernizr.is_live=Modernizr.is_dev=!1,"www"===sr_host_parts[0]||"fbref"===sr_host_parts[0]?(Modernizr.is_live=!0,sr_html.className=cn.concat(" is_live")):sr_host_parts[0].startsWith("b")?(Modernizr.is_build=!0,sr_html.className=cn.concat(" is_build")):(sr_host_parts[0].startsWith("d")||sr_host_parts[0].startsWith("r"))&&(Modernizr.is_dev=!0,sr_html.className=cn.concat(" is_dev")),Modernizr.is_stathead=!1,("stathead"===sr_host_parts[1]&&"srdevel"===sr_host_parts[2]||"stathead"===sr_host_parts[0]||"www"===sr_host_parts[0]&&"stathead"===sr_host_parts[1])&&(cn=sr_html.className,sr_html.className=cn.concat(" is_stathead"),Modernizr.is_stathead=!0);var sr_logger=function(){var e=null,t={enableLogger:function(){null!=e&&(window.console.log=e)},disableLogger:function(){e=console.log,window.console.log=function(){}}};return t}();!document.srdev&&sr_is_production&&sr_logger.disableLogger(),Modernizr.is_modern=1,Modernizr.lang=document.lang||"",Modernizr.srdev=document.srdev;var sr_utilities_js_loader=[];function vjs_readCookie(e){for(var t=e+"=",n=document.cookie.split(";"),r=0;r<n.length;r++){for(var o=n[r];" "===o.charAt(0);)o=o.substring(1,o.length);if(0===o.indexOf(t))return decodeURIComponent(o.substring(t.length,o.length))}return null}function vjs_createCookie(e,t,n){var r="";if(n){var o=new Date;o.setTime(o.getTime()+24*n*60*60*1e3),r="; expires="+o.toGMTString()}else r="";var i=encodeURIComponent(e)+"="+encodeURIComponent(t)+r+"; path=/";document.cookie=i}!function(o){function e(e,t){"use strict";var n=o.document.getElementsByTagName("script")[0],r=o.document.createElement("script");return r.src=e,r.async=!0,n.parentNode.insertBefore(r,n),t&&"function"==typeof t&&(r.onload=t),r}"undefined"!=typeof module?module.exports=e:o.loadJS=e}("undefined"!=typeof global?global:this),String.prototype.vjs_isMatch=function(e){return null!==this.match(e)};var sr_time_begin=new Date,sr_perf_startTime=new Date,sr_perf_log="<strong>Performance:</strong>",sr_perf_lastTime=new Date;function vjs_ready(e){"loading"!=document.readyState?e():document.addEventListener("DOMContentLoaded",e)}
+</script>
+<script>
+var _sr_modern_url = ''.concat(document.srdev?'https://d2p3bygnnzw9w3.cloudfront.net/nocdn/dev/'.concat(document.srdev.substring(0, 2)):"https://d2p3bygnnzw9w3.cloudfront.net/req/202206241",
+                               "/js/bbr", "/sr",document.srdev?"":"-min",   			       ".js");
+loadJS( _sr_modern_url, function() { vjs_ready(sr_fire_js); });
+</script>
+<!-- JS END -->
+
+
+<!-- include:end  ="/inc/klecko_header_full_bbr.html_f" -->
+
+
+
+    <meta name="revised" content="04:14:01 28-Jun-2022" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="generated-by"     content="/home/bbr/build/leaders/build_leaders_page.pl" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#4d4438" />
+    <meta name="msapplication-navbutton-color" content="#4d4438" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#4d4438" />
+    
+
+
+
+    <!-- HeaderSeoSocial -->
+    <meta name="keywords" content="leaders, Points Per Game">
+    <meta itemprop="url"           content="https://www.basketball-reference.com">
+    <meta itemprop="name"          content="Basketball Reference">
+    <meta itemprop="alternateName" content="BkRef">
+    <meta property="fb:app_id"     content="">
+    <meta property="og:url"          content="https://www.basketball-reference.com/leaders/pts_per_g_top_10.html">
+    <meta property="og:title"        content="NBA &amp; ABA Year-by-Year Top 10 Leaders and Records for Points Per Game | Basketball-Reference.com">
+    <meta property="og:site_name"    content="Basketball-Reference.com">
+    <meta property="og:type"         content="    article" />
+    <meta property="og:description"  content="NBA &amp; ABA Year-by-Year Top 10 Leaders and Records for Points Per Game">
+    <meta property="og:image"        content="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-228x228-precomposed.png">
+    <meta name="twitter:card"         content="summary">
+    <meta name="twitter:site"         content="@bball_ref">
+    <meta name="twitter:creator"      content="@bball_ref">
+    <meta property="twitter:image"    content="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-228x228-precomposed.png">
+    <meta name="twitter:domain"       content="Basketball-Reference.com">
+    <meta name="referrer" content="unsafe-url">
+    <!-- HeaderSeoSocial:END -->
+
+    <!-- tiles, touch, favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-180x180-precomposed.png">
+    <link rel="icon"                         sizes="48x48"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/favicon-48.png">
+    <link rel="shortcut icon"                sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="195x195" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-195x195-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-180x180-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="152x152" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="144x144" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="128x128" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-128x128-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="120x120" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="114x114" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="76x76"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="72x72"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="57x57"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/apple-touch-icon-57x57-precomposed.png">
+    <link rel="icon"                         sizes="32x32"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/favicon-32.png">
+    <!--[if IE]>
+    <link rel="shortcut icon"                                href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/favicon.ico"><![endif]-->
+    <meta name="msapplication-TileColor" content="#905500" />
+    <meta name="msapplication-TileImage" content="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/bbr/ms-tile-144.png" />
+    <link rel=search        type="application/opensearchdescription+xml" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/opensearch/opensearch-bbr.xml" title=" Player and Team Search">
+    <!-- tiles, touch, favicons:end -->
+
+<!-- ad code: begin -->
+
+
+<script data-ad-client="ca-pub-5319453360923253" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    var freestar = freestar || {};
+    freestar.config = freestar.config || {};
+    freestar.config.enabled_slots = [ "div-gpt-ad-728x90-GeneralHeader" ];
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree || document.getElementById('sr_suppress_ads') || Modernizr.viewport_width < 1810) {
+    // do not include the rails
+    }
+    else {
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-1');
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-2');
+    } 
+
+</script>
+<script data-cfasync="false" type="text/javascript">
+    var fs_debug = window.location.search.indexOf('fsdebug') == -1 ? false : true;
+    freestar.hitTime = Date.now();
+    freestar.queue = freestar.queue || [];
+    freestar.config = freestar.config || {};
+    freestar.queue.push(function() {
+      // Include the line reflecting the area/section of the site you are on
+      googletag.pubads().setTargeting('sr_site_id', 'bbr');
+    });
+!function(a,b){
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+        return;
+    }  
+    var c=b.getElementsByTagName("script")[0],
+    d=b.createElement("script"),
+    e="https://a.pub.network/basketball-reference";
+    e+=fs_debug?"/qa/pubfig.min.js":"/pubfig.min.js",
+    d.async=!0,
+    d.src=e,
+    c.parentNode.insertBefore(d,c)
+}(window,document);
+</script>
+
+
+<!-- ad code:end -->
+
+
+
+</head>
+<body class="bbr">
+
+    
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ML9M539"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrap">
+  
+  <div id="header" role="banner">
+  <ul id="subnav" class="notranslate">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li class="current"><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+
+
+	
+	
+	
+	<li><a href="https://fbref.com/pt/">Futebol</a></li>
+
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+    <li><a href="https://stathead.com/?utm_source=web&amp;utm_medium=bbr&amp;utm_campaign=sr-nav-bar-top-link">Stathead</a></li>
+    <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+	<li><a href="https://www.sports-reference.com/feedback/">Questions or Comments?</a></li>
+	<li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=bbr&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+
+</ul>
+
+  <a href="/"><img src="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/logos/bbr-logo.svg" onerror="this.src='https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/logos/bbr-logo.png'; this.onerror = null;" alt="Basketball-Reference.com Logo &amp; Link to home page" /></a>
+<div id="nav_trigger" role="button"><a href="#site_menu_link">MENU</a></div>
+<div id="nav" role="navigation" aria-label="Basketball-Reference.com sections">
+	<ul id="main_nav" class="hoversmooth nohover"><li id="header_players" ><a href="/players/">Players</a></li>
+<li id="header_teams" ><a href="/teams/">Teams</a></li>
+<li id="header_leagues" ><a href="/leagues/">Seasons</a></li>
+<li id="header_leaders" class="current"><a href="/leaders/">Leaders</a></li>
+<li id="header_scores" ><a href="/boxscores/">Scores</a></li>
+<li id="header_wnba" class=""><a href="/wnba/">WNBA</a></li>	
+<li id="header_draft" class=""><a href="/draft/">Draft</a></li>
+<li id="header_stathead" class=""><a target='_blank' rel='noopener' href="https://stathead.com/sport/basketball/?utm_medium=bbr&utm_source=top-nav-bar&utm_campaign=basketball">Stathead</a></li>
+<li id="header_newsletter" class=""><a target='_blank' rel='noopener' href="https://www.basketball-reference.com/email/">Newsletter</a></li>
+<li><a data-scroll href="#site_menu_link" class="opener">Full Site Menu Below</a></li>
+	</ul>
+	<div class="breadcrumbs">You are here: <div itemscope itemtype="https://schema.org/BreadcrumbList" class="crumbs"><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">BBR Home Page</span></a> <meta itemprop="position" content="1" /></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href='/leaders/'><span itemprop="name">Leaders and Records</span></a> <meta itemprop="position" content="2" /></span> &gt; <strong>Year-by-Year Top 10 Points Per Game</strong></div></div>
+	<ul class="usertools bullets-inline"><li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=bbr&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+	</ul><!-- ul.user -->
+</div><!-- div#nav -->
+<script>
+function sr_menus_setupMainNav_button_inline () {
+    if (sr_detect_operaMini || !("classList" in document.createElement("_"))) {
+	return false;
+    }
+    var nav_trigger = document.getElementById('nav_trigger');
+    if(!nav_trigger || nav_trigger.triggered) {
+	return false;
+    }
+    nav_trigger.triggered = true;
+    var nav = document.getElementById('nav');
+    var nav_trigger_a = nav_trigger.querySelector('a');
+    if (nav_trigger_a) {
+	nav_trigger_a.setAttribute('href','javascript:void(0)');
+	nav_trigger.onclick = function (event) {
+	    nav.classList.toggle('open');
+	    var is_open = nav.classList.contains('open');
+	    if (is_open) {
+		nav_trigger.classList.add('open');
+	    }
+	    else {
+		nav_trigger.classList.remove('open');
+	    }
+	    event.preventDefault();
+	    try { sr_record_analytics_event('MainNavButtonClick_inline',sr_record_directory(),sr_record_page());}
+	    catch(err) {}
+	};
+    }
+    return true;
+}
+sr_menus_setupMainNav_button_inline();
+</script><div class="search" role="search" aria-label="Site Search for players, teams and sections">
+<form method="get" name="f_big"  action="/search/search.fcgi">
+<div class="ac-outline">
+  <div class="ac-wrapper"><input type="search" tabindex="-1" class="ac-hint" name="hint" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" aria-label="Search suggestions based on user search input">
+
+<input tabindex="1" type="search" class="ac-input completely" name="search" placeholder="Enter Person, Team, Section, etc" aria-label="Enter a player, team or section name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" />
+    <div class="ac-dropdown"></div>
+  </div>
+</div>
+
+<input type="submit" value="Search" tabindex="2" />
+<input type="hidden" name="pid" value="" data-search-id>
+<input type="hidden" name="idx" value="" data-search-idx>
+
+</form>
+</div><!-- div.search -->
+
+</div><!-- div#header -->
+
+
+
+<div id="srcom">
+
+<!-- fs_general_header -->
+<div class="adblock">
+<!-- div#fs_fs_general_header  -->
+<div align="center" id="div-gpt-ad-728x90-GeneralHeader">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-728x90-GeneralHeader');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-728x90-GeneralHeader'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_general_header -->
+
+
+</div>
+
+</div>
+
+<div id="inner_nav" role="navigation" aria-label="Sections on this page and/or other pages related to this page" class=" inactive">
+	<ul class="hoversmooth">
+		<li			class="index "><a href="/leaders/"><u>Leaders Index</u></a>		</li>
+		<li data-fade-selector="#inpage_nav"			class="full hasmore "><span>Other Points Per Game Leaderboards</span>
+			<div>
+<p class="listhead">Regular Season</p>
+					<ul class="">
+						<li><a href="/leaders/pts_per_g_season.html" >Single Season</a></li>
+						<li><a href="/leaders/pts_per_g_career.html" >Career</a></li>
+						<li><a href="/leaders/pts_per_g_active.html" >Active</a></li>
+						<li><a href="/leaders/pts_per_g_progress.html" >Progressive</a></li>
+						<li><a href="/leaders/pts_per_g_yearly.html" >Year-by-Year</a></li>
+						<li><a href="/leaders/pts_per_g_top_10.html" >Year-by-Year Top 10</a></li>
+					</ul>
+
+<p class="listhead">Playoffs</p>
+					<ul class="">
+						<li><a href="/leaders/pts_per_g_season_p.html" >Single Season</a></li>
+						<li><a href="/leaders/pts_per_g_career_p.html" >Career</a></li>
+						<li><a href="/leaders/pts_per_g_active_p.html" >Active</a></li>
+						<li><a href="/leaders/pts_per_g_progress_p.html" >Progressive</a></li>
+						<li><a href="/leaders/pts_per_g_yearly_p.html" >Year-by-Year</a></li>
+						<li><a href="/leaders/pts_per_g_top_10_p.html" >Year-by-Year Top 10</a></li>
+					</ul>
+
+<p class="listhead">Finals</p>
+					<ul class="">
+						<li><a href="/leaders/pts_per_g_career_finals.html" >Career</a></li>
+						<li><a href="/leaders/pts_per_g_active_finals.html" >Active</a></li>
+					</ul>
+
+			</div>		</li>
+		<li data-fade-selector="#inpage_nav"			class="condensed hasmore "><span>Other Points Per Game Leaderboards</span>
+			<div>
+<p class="listhead">Regular Season</p>
+					<ul class="">
+						<li><a href="/leaders/pts_per_g_season.html" >Single Season</a></li>
+						<li><a href="/leaders/pts_per_g_career.html" >Career</a></li>
+						<li><a href="/leaders/pts_per_g_active.html" >Active</a></li>
+						<li><a href="/leaders/pts_per_g_progress.html" >Progressive</a></li>
+						<li><a href="/leaders/pts_per_g_yearly.html" >Year-by-Year</a></li>
+						<li><a href="/leaders/pts_per_g_top_10.html" >Year-by-Year Top 10</a></li>
+					</ul>
+
+<p class="listhead">Playoffs</p>
+					<ul class="">
+						<li><a href="/leaders/pts_per_g_season_p.html" >Single Season</a></li>
+						<li><a href="/leaders/pts_per_g_career_p.html" >Career</a></li>
+						<li><a href="/leaders/pts_per_g_active_p.html" >Active</a></li>
+						<li><a href="/leaders/pts_per_g_progress_p.html" >Progressive</a></li>
+						<li><a href="/leaders/pts_per_g_yearly_p.html" >Year-by-Year</a></li>
+						<li><a href="/leaders/pts_per_g_top_10_p.html" >Year-by-Year Top 10</a></li>
+					</ul>
+
+<p class="listhead">Finals</p>
+					<ul class="">
+						<li><a href="/leaders/pts_per_g_career_finals.html" >Career</a></li>
+						<li><a href="/leaders/pts_per_g_active_finals.html" >Active</a></li>
+					</ul>
+
+			</div>		</li>
+	</ul>
+	    
+    
+        
+        
+        
+    
+        
+        
+        
+    
+        
+        
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+    
+    
+    
+    
+    
+    
+    
+</div><!-- div#inner_nav -->
+
+<div id="content" role="main" class="index">
+	<h1>NBA &amp; ABA Year-by-Year Top 10 Leaders and Records for Points Per Game</h1>
+        
+
+
+          
+      
+      
+      
+      
+      
+         
+            <p>Active players are listed in <strong>bold</strong><br>
+* Indicates member of the Hall of Fame.</p>
+
+            
+            
+            
+         
+      
+         
+            <p><a href="/about/rate_stat_req.html">Rate statistic requirements</a></p>
+
+            
+            
+            
+         
+      
+         
+            
+<div id="all_leaders" class="table_wrapper setup_long long">
+
+<div class="section_heading assoc_leaders" id="leaders_sh">
+  <span class="section_anchor" id="leaders_link" data-label=""></span><h2></h2>    <div class="section_heading_text">
+      <ul>
+      </ul>
+    </div>
+    		
+</div>
+<div class="table_container" id="div_leaders">
+    
+    <table class="suppress_glossary suppress_csv suppress_all sortable stats_table" id="leaders" data-cols-to-freeze="1,2">
+    <caption> Table</caption>
+    <tr>
+<th>Season</th>
+<th>Lg</th>
+<th>1st</th>
+<th>2nd</th>
+<th>3rd</th>
+<th>4th</th>
+<th>5th</th>
+<th>6th</th>
+<th>7th</th>
+<th>8th</th>
+<th>9th</th>
+<th>10th</th>
+</tr>
+<tr>
+<td>2021-22</td>
+<td><a href="/leagues/NBA_2022.html">NBA</a></td>
+<td><a href="/players/e/embiijo01.html"><strong>J. Embiid</strong></a> <span>(30.57)</span></td>
+<td><a href="/players/a/antetgi01.html"><strong>G. Antetokounmpo</strong></a> <span>(29.88)</span></td>
+<td><a href="/players/d/doncilu01.html"><strong>L. Dončić</strong></a> <span>(28.42)</span></td>
+<td><a href="/players/y/youngtr01.html"><strong>T. Young</strong></a> <span>(28.36)</span></td>
+<td><a href="/players/d/derozde01.html"><strong>D. DeRozan</strong></a> <span>(27.87)</span></td>
+<td><a href="/players/j/jokicni01.html"><strong>N. Jokić</strong></a> <span>(27.08)</span></td>
+<td><a href="/players/t/tatumja01.html"><strong>J. Tatum</strong></a> <span>(26.92)</span></td>
+<td><a href="/players/b/bookede01.html"><strong>D. Booker</strong></a> <span>(26.79)</span></td>
+<td><a href="/players/m/mitchdo01.html"><strong>D. Mitchell</strong></a> <span>(25.87)</span></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(25.47)</span></td>
+</tr>
+<tr>
+<td>2020-21</td>
+<td><a href="/leagues/NBA_2021.html">NBA</a></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(31.98)</span></td>
+<td><a href="/players/b/bealbr01.html"><strong>B. Beal</strong></a> <span>(31.30)</span></td>
+<td><a href="/players/l/lillada01.html"><strong>D. Lillard</strong></a> <span>(28.78)</span></td>
+<td><a href="/players/e/embiijo01.html"><strong>J. Embiid</strong></a> <span>(28.45)</span></td>
+<td><a href="/players/a/antetgi01.html"><strong>G. Antetokounmpo</strong></a> <span>(28.15)</span></td>
+<td><a href="/players/d/doncilu01.html"><strong>L. Dončić</strong></a> <span>(27.73)</span></td>
+<td><a href="/players/l/lavinza01.html"><strong>Z. LaVine</strong></a> <span>(27.43)</span></td>
+<td><a href="/players/w/willizi01.html"><strong>Z. Williamson</strong></a> <span>(27.00)</span></td>
+<td><a href="/players/i/irvinky01.html"><strong>K. Irving</strong></a> <span>(26.87)</span></td>
+<td><a href="/players/t/tatumja01.html"><strong>J. Tatum</strong></a> <span>(26.44)</span></td>
+</tr>
+<tr>
+<td>2019-20</td>
+<td><a href="/leagues/NBA_2020.html">NBA</a></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(34.34)</span></td>
+<td><a href="/players/b/bealbr01.html"><strong>B. Beal</strong></a> <span>(30.54)</span></td>
+<td><a href="/players/l/lillada01.html"><strong>D. Lillard</strong></a> <span>(29.97)</span></td>
+<td><a href="/players/y/youngtr01.html"><strong>T. Young</strong></a> <span>(29.63)</span></td>
+<td><a href="/players/a/antetgi01.html"><strong>G. Antetokounmpo</strong></a> <span>(29.48)</span></td>
+<td><a href="/players/d/doncilu01.html"><strong>L. Dončić</strong></a> <span>(28.84)</span></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(27.25)</span></td>
+<td><a href="/players/l/leonaka01.html"><strong>K. Leonard</strong></a> <span>(27.07)</span></td>
+<td><a href="/players/b/bookede01.html"><strong>D. Booker</strong></a> <span>(26.61)</span></td>
+<td><a href="/players/d/davisan02.html"><strong>A. Davis</strong></a> <span>(26.10)</span></td>
+</tr>
+<tr>
+<td>2018-19</td>
+<td><a href="/leagues/NBA_2019.html">NBA</a></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(36.13)</span></td>
+<td><a href="/players/g/georgpa01.html"><strong>P. George</strong></a> <span>(28.04)</span></td>
+<td><a href="/players/a/antetgi01.html"><strong>G. Antetokounmpo</strong></a> <span>(27.69)</span></td>
+<td><a href="/players/e/embiijo01.html"><strong>J. Embiid</strong></a> <span>(27.52)</span></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(27.26)</span></td>
+<td><a href="/players/l/leonaka01.html"><strong>K. Leonard</strong></a> <span>(26.60)</span></td>
+<td><a href="/players/b/bookede01.html"><strong>D. Booker</strong></a> <span>(26.56)</span></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(25.99)</span></td>
+<td><a href="/players/l/lillada01.html"><strong>D. Lillard</strong></a> <span>(25.84)</span></td>
+<td><a href="/players/w/walkeke02.html"><strong>K. Walker</strong></a> <span>(25.63)</span></td>
+</tr>
+<tr>
+<td>2017-18</td>
+<td><a href="/leagues/NBA_2018.html">NBA</a></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(30.43)</span></td>
+<td><a href="/players/d/davisan02.html"><strong>A. Davis</strong></a> <span>(28.13)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(27.45)</span></td>
+<td><a href="/players/l/lillada01.html"><strong>D. Lillard</strong></a> <span>(26.88)</span></td>
+<td><a href="/players/a/antetgi01.html"><strong>G. Antetokounmpo</strong></a> <span>(26.85)</span></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(26.35)</span></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(25.35)</span></td>
+<td><a href="/players/i/irvinky01.html"><strong>K. Irving</strong></a> <span>(24.43)</span></td>
+<td><a href="/players/a/aldrila01.html"><strong>L. Aldridge</strong></a> <span>(23.13)</span>, <a href="/players/o/oladivi01.html"><strong>V. Oladipo</strong></a> <span>(23.13)</span></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>2016-17</td>
+<td><a href="/leagues/NBA_2017.html">NBA</a></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(31.58)</span></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(29.09)</span></td>
+<td><a href="/players/t/thomais02.html"><strong>I. Thomas</strong></a> <span>(28.93)</span></td>
+<td><a href="/players/d/davisan02.html"><strong>A. Davis</strong></a> <span>(27.99)</span></td>
+<td><a href="/players/d/derozde01.html"><strong>D. DeRozan</strong></a> <span>(27.30)</span></td>
+<td><a href="/players/l/lillada01.html"><strong>D. Lillard</strong></a> <span>(26.99)</span></td>
+<td><a href="/players/c/couside01.html"><strong>D. Cousins</strong></a> <span>(26.97)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(26.41)</span></td>
+<td><a href="/players/l/leonaka01.html"><strong>K. Leonard</strong></a> <span>(25.51)</span></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(25.30)</span></td>
+</tr>
+<tr>
+<td>2015-16</td>
+<td><a href="/leagues/NBA_2016.html">NBA</a></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(30.06)</span></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(28.98)</span></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(28.18)</span></td>
+<td><a href="/players/c/couside01.html"><strong>D. Cousins</strong></a> <span>(26.89)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(25.26)</span></td>
+<td><a href="/players/l/lillada01.html"><strong>D. Lillard</strong></a> <span>(25.05)</span></td>
+<td><a href="/players/d/davisan02.html"><strong>A. Davis</strong></a> <span>(24.28)</span></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(23.48)</span></td>
+<td><a href="/players/d/derozde01.html"><strong>D. DeRozan</strong></a> <span>(23.46)</span></td>
+<td><a href="/players/g/georgpa01.html"><strong>P. George</strong></a> <span>(23.14)</span></td>
+</tr>
+<tr>
+<td>2014-15</td>
+<td><a href="/leagues/NBA_2015.html">NBA</a></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(28.15)</span></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(27.37)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(25.26)</span></td>
+<td><a href="/players/d/davisan02.html"><strong>A. Davis</strong></a> <span>(24.35)</span></td>
+<td><a href="/players/c/couside01.html"><strong>D. Cousins</strong></a> <span>(24.08)</span></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(23.75)</span></td>
+<td><a href="/players/a/aldrila01.html"><strong>L. Aldridge</strong></a> <span>(23.39)</span></td>
+<td><a href="/players/g/griffbl01.html"><strong>B. Griffin</strong></a> <span>(21.93)</span></td>
+<td><a href="/players/i/irvinky01.html"><strong>K. Irving</strong></a> <span>(21.71)</span></td>
+<td><a href="/players/t/thompkl01.html"><strong>K. Thompson</strong></a> <span>(21.66)</span></td>
+</tr>
+<tr>
+<td>2013-14</td>
+<td><a href="/leagues/NBA_2014.html">NBA</a></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(32.01)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(27.43)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(27.13)</span></td>
+<td><a href="/players/l/loveke01.html"><strong>K. Love</strong></a> <span>(26.10)</span></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(25.36)</span></td>
+<td><a href="/players/g/griffbl01.html"><strong>B. Griffin</strong></a> <span>(24.12)</span></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(24.01)</span></td>
+<td><a href="/players/a/aldrila01.html"><strong>L. Aldridge</strong></a> <span>(23.23)</span></td>
+<td><a href="/players/c/couside01.html"><strong>D. Cousins</strong></a> <span>(22.73)</span></td>
+<td><a href="/players/d/derozde01.html"><strong>D. DeRozan</strong></a> <span>(22.67)</span></td>
+</tr>
+<tr>
+<td>2012-13</td>
+<td><a href="/leagues/NBA_2013.html">NBA</a></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(28.66)</span></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(28.15)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(27.35)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(26.79)</span></td>
+<td><a href="/players/h/hardeja01.html"><strong>J. Harden</strong></a> <span>(25.94)</span></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(23.21)</span></td>
+<td><a href="/players/c/curryst01.html"><strong>S. Curry</strong></a> <span>(22.90)</span></td>
+<td><a href="/players/w/wadedw01.html">D. Wade</a> <span>(21.20)</span></td>
+<td><a href="/players/a/aldrila01.html"><strong>L. Aldridge</strong></a> <span>(21.08)</span></td>
+<td><a href="/players/l/lopezbr01.html"><strong>B. Lopez</strong></a> <span>(19.42)</span></td>
+</tr>
+<tr>
+<td>2011-12</td>
+<td><a href="/leagues/NBA_2012.html">NBA</a></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(28.03)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(27.86)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(27.15)</span></td>
+<td><a href="/players/l/loveke01.html"><strong>K. Love</strong></a> <span>(26.04)</span></td>
+<td><a href="/players/w/westbru01.html"><strong>R. Westbrook</strong></a> <span>(23.61)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(22.64)</span></td>
+<td><a href="/players/a/aldrila01.html"><strong>L. Aldridge</strong></a> <span>(21.65)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(21.65)</span></td>
+<td><a href="/players/w/willide01.html">D. Williams</a> <span>(20.98)</span></td>
+<td><a href="/players/g/griffbl01.html"><strong>B. Griffin</strong></a> <span>(20.73)</span></td>
+</tr>
+<tr>
+<td>2010-11</td>
+<td><a href="/leagues/NBA_2011.html">NBA</a></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(27.71)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(26.72)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(25.58)</span></td>
+<td><a href="/players/w/wadedw01.html">D. Wade</a> <span>(25.54)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(25.34)</span></td>
+<td><a href="/players/s/stoudam01.html">A. Stoudemire</a> <span>(25.27)</span></td>
+<td><a href="/players/r/rosede01.html"><strong>D. Rose</strong></a> <span>(25.01)</span></td>
+<td><a href="/players/e/ellismo01.html">M. Ellis</a> <span>(24.11)</span></td>
+<td><a href="/players/m/martike02.html">K. Martin</a> <span>(23.45)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(23.03)</span></td>
+</tr>
+<tr>
+<td>2009-10</td>
+<td><a href="/leagues/NBA_2010.html">NBA</a></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(30.15)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(29.71)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(28.16)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(26.99)</span></td>
+<td><a href="/players/w/wadedw01.html">D. Wade</a> <span>(26.56)</span></td>
+<td><a href="/players/e/ellismo01.html">M. Ellis</a> <span>(25.48)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(25.02)</span></td>
+<td><a href="/players/g/grangda01.html">D. Granger</a> <span>(24.15)</span></td>
+<td><a href="/players/b/boshch01.html">C. Bosh</a>* <span>(23.97)</span></td>
+<td><a href="/players/s/stoudam01.html">A. Stoudemire</a> <span>(23.12)</span></td>
+</tr>
+<tr>
+<td>2008-09</td>
+<td><a href="/leagues/NBA_2009.html">NBA</a></td>
+<td><a href="/players/w/wadedw01.html">D. Wade</a> <span>(30.20)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(28.44)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(26.84)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(25.85)</span></td>
+<td><a href="/players/g/grangda01.html">D. Granger</a> <span>(25.79)</span></td>
+<td><a href="/players/d/duranke01.html"><strong>K. Durant</strong></a> <span>(25.28)</span></td>
+<td><a href="/players/p/paulch01.html"><strong>C. Paul</strong></a> <span>(22.83)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(22.79)</span></td>
+<td><a href="/players/b/boshch01.html">C. Bosh</a>* <span>(22.68)</span></td>
+<td><a href="/players/r/roybr01.html">B. Roy</a> <span>(22.63)</span></td>
+</tr>
+<tr>
+<td>2007-08</td>
+<td><a href="/leagues/NBA_2008.html">NBA</a></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(30.00)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(28.33)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(26.39)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(25.69)</span></td>
+<td><a href="/players/s/stoudam01.html">A. Stoudemire</a> <span>(25.18)</span></td>
+<td><a href="/players/m/martike02.html">K. Martin</a> <span>(23.66)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(23.60)</span></td>
+<td><a href="/players/r/reddmi01.html">M. Redd</a> <span>(22.67)</span></td>
+<td><a href="/players/j/jefferi01.html">R. Jefferson</a> <span>(22.65)</span></td>
+<td><a href="/players/b/boshch01.html">C. Bosh</a>* <span>(22.33)</span></td>
+</tr>
+<tr>
+<td>2006-07</td>
+<td><a href="/leagues/NBA_2007.html">NBA</a></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(31.56)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(28.94)</span></td>
+<td><a href="/players/a/arenagi01.html">G. Arenas</a> <span>(28.45)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(27.33)</span></td>
+<td><a href="/players/r/reddmi01.html">M. Redd</a> <span>(26.72)</span></td>
+<td><a href="/players/a/allenra02.html">R. Allen</a>* <span>(26.44)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(26.29)</span></td>
+<td><a href="/players/c/cartevi01.html">V. Carter</a> <span>(25.24)</span></td>
+<td><a href="/players/j/johnsjo02.html"><strong>J. Johnson</strong></a> <span>(25.02)</span></td>
+<td><a href="/players/m/mcgratr01.html">T. McGrady</a>* <span>(24.61)</span></td>
+</tr>
+<tr>
+<td>2005-06</td>
+<td><a href="/leagues/NBA_2006.html">NBA</a></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(35.40)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(33.01)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(31.37)</span></td>
+<td><a href="/players/a/arenagi01.html">G. Arenas</a> <span>(29.32)</span></td>
+<td><a href="/players/w/wadedw01.html">D. Wade</a> <span>(27.20)</span></td>
+<td><a href="/players/p/piercpa01.html">P. Pierce</a>* <span>(26.78)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(26.56)</span></td>
+<td><a href="/players/a/anthoca01.html"><strong>C. Anthony</strong></a> <span>(26.52)</span></td>
+<td><a href="/players/r/reddmi01.html">M. Redd</a> <span>(25.35)</span></td>
+<td><a href="/players/a/allenra02.html">R. Allen</a>* <span>(25.06)</span></td>
+</tr>
+<tr>
+<td>2004-05</td>
+<td><a href="/leagues/NBA_2005.html">NBA</a></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(30.69)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(27.56)</span></td>
+<td><a href="/players/j/jamesle01.html"><strong>L. James</strong></a> <span>(27.19)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(26.05)</span></td>
+<td><a href="/players/s/stoudam01.html">A. Stoudemire</a> <span>(26.00)</span></td>
+<td><a href="/players/m/mcgratr01.html">T. McGrady</a>* <span>(25.68)</span></td>
+<td><a href="/players/a/arenagi01.html">G. Arenas</a> <span>(25.48)</span></td>
+<td><a href="/players/c/cartevi01.html">V. Carter</a> <span>(24.49)</span></td>
+<td><a href="/players/w/wadedw01.html">D. Wade</a> <span>(24.08)</span></td>
+<td><a href="/players/a/allenra02.html">R. Allen</a>* <span>(23.94)</span></td>
+</tr>
+<tr>
+<td>2003-04</td>
+<td><a href="/leagues/NBA_2004.html">NBA</a></td>
+<td><a href="/players/m/mcgratr01.html">T. McGrady</a>* <span>(28.03)</span></td>
+<td><a href="/players/s/stojape01.html">P. Stojaković</a> <span>(24.25)</span></td>
+<td><a href="/players/g/garneke01.html">K. Garnett</a>* <span>(24.23)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(23.95)</span></td>
+<td><a href="/players/p/piercpa01.html">P. Pierce</a>* <span>(22.95)</span></td>
+<td><a href="/players/d/davisba01.html">B. Davis</a> <span>(22.87)</span></td>
+<td><a href="/players/c/cartevi01.html">V. Carter</a> <span>(22.53)</span></td>
+<td><a href="/players/d/duncati01.html">T. Duncan</a>* <span>(22.29)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(21.82)</span></td>
+<td><a href="/players/r/reddmi01.html">M. Redd</a> <span>(21.66)</span></td>
+</tr>
+<tr>
+<td>2002-03</td>
+<td><a href="/leagues/NBA_2003.html">NBA</a></td>
+<td><a href="/players/m/mcgratr01.html">T. McGrady</a>* <span>(32.09)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(30.01)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(27.59)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(27.48)</span></td>
+<td><a href="/players/p/piercpa01.html">P. Pierce</a>* <span>(25.92)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(25.14)</span></td>
+<td><a href="/players/d/duncati01.html">T. Duncan</a>* <span>(23.26)</span></td>
+<td><a href="/players/w/webbech01.html">C. Webber</a>* <span>(23.01)</span></td>
+<td><a href="/players/g/garneke01.html">K. Garnett</a>* <span>(22.96)</span></td>
+<td><a href="/players/a/allenra02.html">R. Allen</a>* <span>(22.54)</span></td>
+</tr>
+<tr>
+<td>2001-02</td>
+<td><a href="/leagues/NBA_2002.html">NBA</a></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(31.38)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(27.19)</span></td>
+<td><a href="/players/p/piercpa01.html">P. Pierce</a>* <span>(26.15)</span></td>
+<td><a href="/players/m/mcgratr01.html">T. McGrady</a>* <span>(25.63)</span></td>
+<td><a href="/players/d/duncati01.html">T. Duncan</a>* <span>(25.48)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(25.24)</span></td>
+<td><a href="/players/c/cartevi01.html">V. Carter</a> <span>(24.73)</span></td>
+<td><a href="/players/n/nowitdi01.html">D. Nowitzki</a> <span>(23.41)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(22.35)</span></td>
+<td><a href="/players/w/walkean02.html">A. Walker</a> <span>(22.15)</span></td>
+</tr>
+<tr>
+<td>2000-01</td>
+<td><a href="/leagues/NBA_2001.html">NBA</a></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(31.08)</span></td>
+<td><a href="/players/s/stackje01.html">J. Stackhouse</a> <span>(29.75)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(28.72)</span></td>
+<td><a href="/players/b/bryanko01.html">K. Bryant</a>* <span>(28.50)</span></td>
+<td><a href="/players/c/cartevi01.html">V. Carter</a> <span>(27.60)</span></td>
+<td><a href="/players/w/webbech01.html">C. Webber</a>* <span>(27.11)</span></td>
+<td><a href="/players/m/mcgratr01.html">T. McGrady</a>* <span>(26.82)</span></td>
+<td><a href="/players/p/piercpa01.html">P. Pierce</a>* <span>(25.26)</span></td>
+<td><a href="/players/j/jamisan01.html">A. Jamison</a> <span>(24.93)</span></td>
+<td><a href="/players/m/marbust01.html">S. Marbury</a> <span>(23.85)</span></td>
+</tr>
+<tr>
+<td>1999-00</td>
+<td><a href="/leagues/NBA_2000.html">NBA</a></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(29.67)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(28.41)</span></td>
+<td><a href="/players/h/hillgr01.html">G. Hill</a>* <span>(25.76)</span></td>
+<td><a href="/players/c/cartevi01.html">V. Carter</a> <span>(25.70)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(25.55)</span></td>
+<td><a href="/players/w/webbech01.html">C. Webber</a>* <span>(24.45)</span></td>
+<td><a href="/players/p/paytoga01.html">G. Payton</a>* <span>(24.17)</span></td>
+<td><a href="/players/s/stackje01.html">J. Stackhouse</a> <span>(23.65)</span></td>
+<td><a href="/players/d/duncati01.html">T. Duncan</a>* <span>(23.19)</span></td>
+<td><a href="/players/g/garneke01.html">K. Garnett</a>* <span>(22.93)</span></td>
+</tr>
+<tr>
+<td>1998-99</td>
+<td><a href="/leagues/NBA_1999.html">NBA</a></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(26.75)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(26.31)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(23.76)</span></td>
+<td><a href="/players/a/abdursh01.html">S. Abdur-Rahim</a> <span>(23.04)</span></td>
+<td><a href="/players/v/vanhoke01.html">K. Van Horn</a> <span>(21.81)</span></td>
+<td><a href="/players/d/duncati01.html">T. Duncan</a>* <span>(21.68)</span>, <a href="/players/p/paytoga01.html">G. Payton</a>* <span>(21.68)</span></td>
+<td>&nbsp;</td>
+<td><a href="/players/m/marbust01.html">S. Marbury</a> <span>(21.31)</span></td>
+<td><a href="/players/m/mcdyean01.html">A. McDyess</a> <span>(21.22)</span></td>
+<td><a href="/players/h/hillgr01.html">G. Hill</a>* <span>(21.06)</span></td>
+</tr>
+<tr>
+<td>1997-98</td>
+<td><a href="/leagues/NBA_1998.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(28.74)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(28.32)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(27.04)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(23.19)</span></td>
+<td><a href="/players/w/walkean02.html">A. Walker</a> <span>(22.44)</span></td>
+<td><a href="/players/a/abdursh01.html">S. Abdur-Rahim</a> <span>(22.30)</span></td>
+<td><a href="/players/r/ricegl01.html">G. Rice</a> <span>(22.27)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(21.98)</span></td>
+<td><a href="/players/w/webbech01.html">C. Webber</a>* <span>(21.90)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(21.56)</span></td>
+</tr>
+<tr>
+<td>1996-97</td>
+<td><a href="/leagues/NBA_1997.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(29.65)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(27.43)</span></td>
+<td><a href="/players/r/ricegl01.html">G. Rice</a> <span>(26.77)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(25.86)</span></td>
+<td><a href="/players/s/sprewla01.html">L. Sprewell</a> <span>(24.23)</span></td>
+<td><a href="/players/i/iversal01.html">A. Iverson</a>* <span>(23.51)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(23.21)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(22.45)</span></td>
+<td><a href="/players/g/gillke01.html">K. Gill</a> <span>(21.82)</span></td>
+<td><a href="/players/p/paytoga01.html">G. Payton</a>* <span>(21.77)</span></td>
+</tr>
+<tr>
+<td>1995-96</td>
+<td><a href="/leagues/NBA_1996.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(30.38)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(26.89)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(26.56)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(25.68)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(25.01)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(23.23)</span></td>
+<td><a href="/players/m/mournal01.html">A. Mourning</a>* <span>(23.19)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(23.11)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(22.51)</span></td>
+<td><a href="/players/h/howarju01.html">J. Howard</a> <span>(22.09)</span></td>
+</tr>
+<tr>
+<td>1994-95</td>
+<td><a href="/leagues/NBA_1995.html">NBA</a></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(29.30)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(27.85)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(27.63)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(26.67)</span></td>
+<td><a href="/players/m/mashbja01.html">J. Mashburn</a> <span>(24.07)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(23.87)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(22.96)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(22.77)</span></td>
+<td><a href="/players/r/ricegl01.html">G. Rice</a> <span>(22.33)</span></td>
+<td><a href="/players/r/robingl01.html">G. Robinson</a> <span>(21.94)</span></td>
+</tr>
+<tr>
+<td>1993-94</td>
+<td><a href="/leagues/NBA_1994.html">NBA</a></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(29.79)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(29.35)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(27.30)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(25.99)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(25.16)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(24.54)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(23.37)</span></td>
+<td><a href="/players/p/pippesc01.html">S. Pippen</a>* <span>(22.04)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(21.57)</span></td>
+<td><a href="/players/r/ricegl01.html">G. Rice</a> <span>(21.09)</span></td>
+</tr>
+<tr>
+<td>1992-93</td>
+<td><a href="/leagues/NBA_1993.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(32.58)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(29.87)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(27.04)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(26.10)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(25.58)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(24.19)</span></td>
+<td><a href="/players/d/dumarjo01.html">J. Dumars</a>* <span>(23.49)</span></td>
+<td><a href="/players/o/onealsh01.html">S. O'Neal</a>* <span>(23.37)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(23.37)</span></td>
+<td><a href="/players/m/mannida01.html">D. Manning</a> <span>(22.78)</span></td>
+</tr>
+<tr>
+<td>1991-92</td>
+<td><a href="/leagues/NBA_1992.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(30.05)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(28.05)</span></td>
+<td><a href="/players/m/mullich01.html">C. Mullin</a>* <span>(25.60)</span></td>
+<td><a href="/players/d/drexlcl01.html">C. Drexler</a>* <span>(25.04)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(24.02)</span></td>
+<td><a href="/players/h/hardati01.html">T. Hardaway</a>* <span>(23.37)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(23.21)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(23.07)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(22.54)</span></td>
+<td><a href="/players/r/ricegl01.html">G. Rice</a> <span>(22.34)</span></td>
+</tr>
+<tr>
+<td>1990-91</td>
+<td><a href="/leagues/NBA_1991.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(31.46)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(29.05)</span></td>
+<td><a href="/players/k/kingbe01.html">B. King</a>* <span>(28.39)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(27.60)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(26.59)</span></td>
+<td><a href="/players/a/adamsmi01.html">M. Adams</a> <span>(26.55)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(25.94)</span></td>
+<td><a href="/players/m/mullich01.html">C. Mullin</a>* <span>(25.70)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(25.62)</span></td>
+<td><a href="/players/r/richmmi01.html">M. Richmond</a>* <span>(23.90)</span></td>
+</tr>
+<tr>
+<td>1989-90</td>
+<td><a href="/leagues/NBA_1990.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(33.57)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(30.98)</span></td>
+<td><a href="/players/e/ewingpa01.html">P. Ewing</a>* <span>(28.62)</span></td>
+<td><a href="/players/c/chambto01.html">T. Chambers</a> <span>(27.17)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(26.73)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(25.18)</span></td>
+<td><a href="/players/m/mullich01.html">C. Mullin</a>* <span>(25.08)</span></td>
+<td><a href="/players/m/millere01.html">R. Miller</a>* <span>(24.59)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(24.33)</span></td>
+<td><a href="/players/r/robinda01.html">D. Robinson</a>* <span>(24.30)</span></td>
+</tr>
+<tr>
+<td>1988-89</td>
+<td><a href="/leagues/NBA_1989.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(32.51)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(29.07)</span></td>
+<td><a href="/players/e/ellisda01.html">D. Ellis</a> <span>(27.48)</span></td>
+<td><a href="/players/d/drexlcl01.html">C. Drexler</a>* <span>(27.22)</span></td>
+<td><a href="/players/m/mullich01.html">C. Mullin</a>* <span>(26.54)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(26.52)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(26.24)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(25.78)</span></td>
+<td><a href="/players/c/chambto01.html">T. Chambers</a> <span>(25.74)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(24.80)</span></td>
+</tr>
+<tr>
+<td>1987-88</td>
+<td><a href="/leagues/NBA_1988.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(34.98)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(30.73)</span></td>
+<td><a href="/players/b/birdla01.html">L. Bird</a>* <span>(29.93)</span></td>
+<td><a href="/players/b/barklch01.html">C. Barkley</a>* <span>(28.30)</span></td>
+<td><a href="/players/m/malonka01.html">K. Malone</a>* <span>(27.66)</span></td>
+<td><a href="/players/d/drexlcl01.html">C. Drexler</a>* <span>(26.98)</span></td>
+<td><a href="/players/e/ellisda01.html">D. Ellis</a> <span>(25.84)</span></td>
+<td><a href="/players/a/aguirma01.html">M. Aguirre</a> <span>(25.09)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(25.00)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(22.85)</span></td>
+</tr>
+<tr>
+<td>1986-87</td>
+<td><a href="/leagues/NBA_1987.html">NBA</a></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(37.09)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(29.04)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(28.60)</span></td>
+<td><a href="/players/b/birdla01.html">L. Bird</a>* <span>(28.05)</span></td>
+<td><a href="/players/v/vandeki01.html">K. Vandeweghe</a> <span>(26.86)</span></td>
+<td><a href="/players/m/mchalke01.html">K. McHale</a>* <span>(26.08)</span></td>
+<td><a href="/players/a/aguirma01.html">M. Aguirre</a> <span>(25.70)</span></td>
+<td><a href="/players/e/ellisda01.html">D. Ellis</a> <span>(24.89)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(24.11)</span></td>
+<td><a href="/players/j/johnsma02.html">M. Johnson</a>* <span>(23.86)</span></td>
+</tr>
+<tr>
+<td>1985-86</td>
+<td><a href="/leagues/NBA_1986.html">NBA</a></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(30.33)</span></td>
+<td><a href="/players/d/dantlad01.html">A. Dantley</a>* <span>(29.83)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(29.80)</span></td>
+<td><a href="/players/b/birdla01.html">L. Bird</a>* <span>(25.79)</span></td>
+<td><a href="/players/s/shortpu01.html">P. Short</a> <span>(25.50)</span></td>
+<td><a href="/players/v/vandeki01.html">K. Vandeweghe</a> <span>(24.84)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(23.77)</span></td>
+<td><a href="/players/o/olajuha01.html">H. Olajuwon</a>* <span>(23.49)</span></td>
+<td><a href="/players/m/mitchmi01.html">M. Mitchell</a> <span>(23.43)</span></td>
+<td><a href="/players/f/freewo01.html">W. Free</a> <span>(23.39)</span></td>
+</tr>
+<tr>
+<td>1984-85</td>
+<td><a href="/leagues/NBA_1985.html">NBA</a></td>
+<td><a href="/players/k/kingbe01.html">B. King</a>* <span>(32.89)</span></td>
+<td><a href="/players/b/birdla01.html">L. Bird</a>* <span>(28.69)</span></td>
+<td><a href="/players/j/jordami01.html">M. Jordan</a>* <span>(28.21)</span></td>
+<td><a href="/players/s/shortpu01.html">P. Short</a> <span>(28.03)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(27.93)</span></td>
+<td><a href="/players/w/wilkido01.html">D. Wilkins</a>* <span>(27.37)</span></td>
+<td><a href="/players/d/dantlad01.html">A. Dantley</a>* <span>(26.58)</span></td>
+<td><a href="/players/a/aguirma01.html">M. Aguirre</a> <span>(25.69)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(24.57)</span></td>
+<td><a href="/players/c/cummite01.html">T. Cummings</a> <span>(23.56)</span></td>
+</tr>
+<tr>
+<td>1983-84</td>
+<td><a href="/leagues/NBA_1984.html">NBA</a></td>
+<td><a href="/players/d/dantlad01.html">A. Dantley</a>* <span>(30.61)</span></td>
+<td><a href="/players/a/aguirma01.html">M. Aguirre</a> <span>(29.49)</span></td>
+<td><a href="/players/v/vandeki01.html">K. Vandeweghe</a> <span>(29.42)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(26.43)</span></td>
+<td><a href="/players/k/kingbe01.html">B. King</a>* <span>(26.32)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(25.88)</span></td>
+<td><a href="/players/b/birdla01.html">L. Bird</a>* <span>(24.15)</span></td>
+<td><a href="/players/m/mitchmi01.html">M. Mitchell</a> <span>(23.28)</span></td>
+<td><a href="/players/c/cummite01.html">T. Cummings</a> <span>(22.89)</span></td>
+<td><a href="/players/s/shortpu01.html">P. Short</a> <span>(22.82)</span></td>
+</tr>
+<tr>
+<td>1982-83</td>
+<td><a href="/leagues/NBA_1983.html">NBA</a></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(28.37)</span></td>
+<td><a href="/players/v/vandeki01.html">K. Vandeweghe</a> <span>(26.66)</span></td>
+<td><a href="/players/t/tripuke01.html">K. Tripucka</a> <span>(26.48)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(26.19)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(24.46)</span></td>
+<td><a href="/players/a/aguirma01.html">M. Aguirre</a> <span>(24.43)</span></td>
+<td><a href="/players/c/carrojo01.html">J. Carroll</a> <span>(24.14)</span></td>
+<td><a href="/players/f/freewo01.html">W. Free</a> <span>(23.88)</span></td>
+<td><a href="/players/t/theusre01.html">R. Theus</a> <span>(23.82)</span></td>
+<td><a href="/players/c/cummite01.html">T. Cummings</a> <span>(23.71)</span></td>
+</tr>
+<tr>
+<td>1981-82</td>
+<td><a href="/leagues/NBA_1982.html">NBA</a></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(32.29)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(31.11)</span></td>
+<td><a href="/players/d/dantlad01.html">A. Dantley</a>* <span>(30.33)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(25.39)</span></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(24.37)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(23.92)</span></td>
+<td><a href="/players/w/willigu01.html">G. Williams</a> <span>(23.44)</span></td>
+<td><a href="/players/k/kingbe01.html">B. King</a>* <span>(23.20)</span></td>
+<td><a href="/players/f/freewo01.html">W. Free</a> <span>(22.94)</span></td>
+<td><a href="/players/b/birdla01.html">L. Bird</a>* <span>(22.87)</span></td>
+</tr>
+<tr>
+<td>1980-81</td>
+<td><a href="/leagues/NBA_1981.html">NBA</a></td>
+<td><a href="/players/d/dantlad01.html">A. Dantley</a>* <span>(30.65)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(27.77)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(27.09)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(26.19)</span></td>
+<td><a href="/players/t/thompda01.html">D. Thompson</a>* <span>(25.55)</span></td>
+<td><a href="/players/b/birdsot01.html">O. Birdsong</a> <span>(24.61)</span></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(24.56)</span></td>
+<td><a href="/players/m/mitchmi01.html">M. Mitchell</a> <span>(24.54)</span></td>
+<td><a href="/players/f/freewo01.html">W. Free</a> <span>(24.08)</span></td>
+<td><a href="/players/e/englial01.html">A. English</a>* <span>(23.81)</span></td>
+</tr>
+<tr>
+<td>1979-80</td>
+<td><a href="/leagues/NBA_1980.html">NBA</a></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(33.14)</span></td>
+<td><a href="/players/f/freewo01.html">W. Free</a> <span>(30.22)</span></td>
+<td><a href="/players/d/dantlad01.html">A. Dantley</a>* <span>(27.99)</span></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(26.92)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(25.84)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(24.80)</span></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(23.79)</span></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(22.95)</span></td>
+<td><a href="/players/b/birdsot01.html">O. Birdsong</a> <span>(22.66)</span></td>
+<td><a href="/players/m/mitchmi01.html">M. Mitchell</a> <span>(22.20)</span></td>
+</tr>
+<tr>
+<td>1978-79</td>
+<td><a href="/leagues/NBA_1979.html">NBA</a></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(29.56)</span></td>
+<td><a href="/players/f/freewo01.html">W. Free</a> <span>(28.77)</span></td>
+<td><a href="/players/j/johnsma01.html">M. Johnson</a> <span>(25.61)</span></td>
+<td><a href="/players/m/mcadobo01.html">B. McAdoo</a>* <span>(24.78)</span></td>
+<td><a href="/players/m/malonmo01.html">M. Malone</a>* <span>(24.77)</span></td>
+<td><a href="/players/t/thompda01.html">D. Thompson</a>* <span>(24.01)</span></td>
+<td><a href="/players/w/westppa01.html">P. Westphal</a>* <span>(23.96)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(23.79)</span></td>
+<td><a href="/players/g/gilmoar01.html">A. Gilmore</a>* <span>(23.66)</span></td>
+<td><a href="/players/d/daviswa03.html">W. Davis</a> <span>(23.65)</span></td>
+</tr>
+<tr>
+<td>1977-78</td>
+<td><a href="/leagues/NBA_1978.html">NBA</a></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(27.22)</span></td>
+<td><a href="/players/t/thompda01.html">D. Thompson</a>* <span>(27.15)</span></td>
+<td><a href="/players/m/mcadobo01.html">B. McAdoo</a>* <span>(26.54)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(25.81)</span></td>
+<td><a href="/players/m/murphca01.html">C. Murphy</a>* <span>(25.64)</span></td>
+<td><a href="/players/w/westppa01.html">P. Westphal</a>* <span>(25.18)</span></td>
+<td><a href="/players/s/smithra01.html">R. Smith</a> <span>(24.65)</span></td>
+<td><a href="/players/l/laniebo01.html">B. Lanier</a>* <span>(24.48)</span></td>
+<td><a href="/players/d/daviswa03.html">W. Davis</a> <span>(24.19)</span></td>
+<td><a href="/players/k/kingbe01.html">B. King</a>* <span>(24.16)</span></td>
+</tr>
+<tr>
+<td>1976-77</td>
+<td><a href="/leagues/NBA_1977.html">NBA</a></td>
+<td><a href="/players/m/maravpe01.html">P. Maravich</a>* <span>(31.14)</span></td>
+<td><a href="/players/k/knighbi01.html">B. Knight</a> <span>(26.60)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(26.24)</span></td>
+<td><a href="/players/t/thompda01.html">D. Thompson</a>* <span>(25.91)</span></td>
+<td><a href="/players/m/mcadobo01.html">B. McAdoo</a>* <span>(25.85)</span></td>
+<td><a href="/players/l/laniebo01.html">B. Lanier</a>* <span>(25.25)</span></td>
+<td><a href="/players/d/drewjo01.html">J. Drew</a> <span>(24.19)</span></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(23.68)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(23.11)</span></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(22.34)</span></td>
+</tr>
+<tr>
+<td>1975-76</td>
+<td><a href="/leagues/NBA_1976.html">NBA</a></td>
+<td><a href="/players/m/mcadobo01.html">B. McAdoo</a>* <span>(31.12)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(27.74)</span></td>
+<td><a href="/players/m/maravpe01.html">P. Maravich</a>* <span>(25.87)</span></td>
+<td><a href="/players/a/architi01.html">T. Archibald</a>* <span>(24.81)</span></td>
+<td><a href="/players/b/brownfr01.html">F. Brown</a> <span>(23.12)</span></td>
+<td><a href="/players/m/mcginge01.html">G. McGinnis</a>* <span>(22.97)</span></td>
+<td><a href="/players/s/smithra01.html">R. Smith</a> <span>(21.79)</span></td>
+<td><a href="/players/d/drewjo01.html">J. Drew</a> <span>(21.56)</span></td>
+<td><a href="/players/d/dandrbo01.html">B. Dandridge</a>* <span>(21.52)</span></td>
+<td><a href="/players/b/barryri01.html">R. Barry</a>* <span>(21.00)</span>, <a href="/players/m/murphca01.html">C. Murphy</a>* <span>(21.00)</span></td>
+</tr>
+<tr>
+<td>1975-76</td>
+<td><a href="/leagues/ABA_1976.html">ABA</a></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(29.31)</span></td>
+<td><a href="/players/k/knighbi01.html">B. Knight</a> <span>(28.13)</span></td>
+<td><a href="/players/t/thompda01.html">D. Thompson</a>* <span>(26.00)</span></td>
+<td><a href="/players/g/gilmoar01.html">A. Gilmore</a>* <span>(24.61)</span></td>
+<td><a href="/players/b/barnema01.html">M. Barnes</a> <span>(24.12)</span></td>
+<td><a href="/players/s/silasja01.html">J. Silas</a> <span>(23.81)</span></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(22.98)</span></td>
+<td><a href="/players/b/boonero01.html">R. Boone</a> <span>(22.04)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(21.83)</span></td>
+<td><a href="/players/b/burdeti01.html">T. Burden</a> <span>(19.90)</span></td>
+</tr>
+<tr>
+<td>1974-75</td>
+<td><a href="/leagues/NBA_1975.html">NBA</a></td>
+<td><a href="/players/m/mcadobo01.html">B. McAdoo</a>* <span>(34.52)</span></td>
+<td><a href="/players/b/barryri01.html">R. Barry</a>* <span>(30.62)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(29.98)</span></td>
+<td><a href="/players/a/architi01.html">T. Archibald</a>* <span>(26.46)</span></td>
+<td><a href="/players/s/scottch01.html">C. Scott</a>* <span>(24.35)</span></td>
+<td><a href="/players/l/laniebo01.html">B. Lanier</a>* <span>(23.99)</span></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(23.01)</span></td>
+<td><a href="/players/g/goodrga01.html">G. Goodrich</a>* <span>(22.64)</span></td>
+<td><a href="/players/h/haywosp01.html">S. Haywood</a>* <span>(22.43)</span></td>
+<td><a href="/players/c/cartefr01.html">F. Carter</a> <span>(21.90)</span></td>
+</tr>
+<tr>
+<td>1974-75</td>
+<td><a href="/leagues/ABA_1975.html">ABA</a></td>
+<td><a href="/players/m/mcginge01.html">G. McGinnis</a>* <span>(29.78)</span></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(27.89)</span></td>
+<td><a href="/players/b/boonero01.html">R. Boone</a> <span>(25.20)</span></td>
+<td><a href="/players/g/granttr01.html">T. Grant</a> <span>(25.19)</span></td>
+<td><a href="/players/b/barnema01.html">M. Barnes</a> <span>(24.01)</span></td>
+<td><a href="/players/g/gilmoar01.html">A. Gilmore</a>* <span>(23.58)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(23.39)</span></td>
+<td><a href="/players/l/lewisfr02.html">F. Lewis</a> <span>(22.19)</span></td>
+<td><a href="/players/l/lamarbo01.html">B. Lamar</a> <span>(20.86)</span></td>
+<td><a href="/players/s/simpsra01.html">R. Simpson</a> <span>(20.63)</span></td>
+</tr>
+<tr>
+<td>1973-74</td>
+<td><a href="/leagues/NBA_1974.html">NBA</a></td>
+<td><a href="/players/m/mcadobo01.html">B. McAdoo</a>* <span>(30.55)</span></td>
+<td><a href="/players/m/maravpe01.html">P. Maravich</a>* <span>(27.72)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(27.05)</span></td>
+<td><a href="/players/g/goodrga01.html">G. Goodrich</a>* <span>(25.32)</span></td>
+<td><a href="/players/b/barryri01.html">R. Barry</a>* <span>(25.11)</span></td>
+<td><a href="/players/t/tomjaru01.html">R. Tomjanovich</a>* <span>(24.51)</span></td>
+<td><a href="/players/p/petrige01.html">G. Petrie</a> <span>(24.26)</span></td>
+<td><a href="/players/h/haywosp01.html">S. Haywood</a>* <span>(23.48)</span></td>
+<td><a href="/players/h/havlijo01.html">J. Havlicek</a>* <span>(22.58)</span></td>
+<td><a href="/players/l/laniebo01.html">B. Lanier</a>* <span>(22.49)</span></td>
+</tr>
+<tr>
+<td>1973-74</td>
+<td><a href="/leagues/ABA_1974.html">ABA</a></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(27.37)</span></td>
+<td><a href="/players/m/mcginge01.html">G. McGinnis</a>* <span>(25.89)</span></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(25.52)</span></td>
+<td><a href="/players/g/gervige01.html">G. Gervin</a>* <span>(23.38)</span></td>
+<td><a href="/players/w/wisewi01.html">W. Wise</a> <span>(22.27)</span></td>
+<td><a href="/players/l/lamarbo01.html">B. Lamar</a> <span>(20.39)</span></td>
+<td><a href="/players/j/johnsst01.html">S. Johnson</a> <span>(20.12)</span></td>
+<td><a href="/players/c/cartege01.html">G. Carter</a> <span>(19.32)</span></td>
+<td><a href="/players/t/thompge01.html">G. Thompson</a> <span>(19.21)</span></td>
+<td><a href="/players/s/simpsra01.html">R. Simpson</a> <span>(18.72)</span></td>
+</tr>
+<tr>
+<td>1972-73</td>
+<td><a href="/leagues/NBA_1973.html">NBA</a></td>
+<td><a href="/players/a/architi01.html">T. Archibald</a>* <span>(33.99)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(30.16)</span></td>
+<td><a href="/players/h/haywosp01.html">S. Haywood</a>* <span>(29.23)</span></td>
+<td><a href="/players/h/hudsolo01.html">L. Hudson</a>* <span>(27.05)</span></td>
+<td><a href="/players/m/maravpe01.html">P. Maravich</a>* <span>(26.11)</span></td>
+<td><a href="/players/s/scottch01.html">C. Scott</a>* <span>(25.28)</span></td>
+<td><a href="/players/p/petrige01.html">G. Petrie</a> <span>(24.94)</span></td>
+<td><a href="/players/g/goodrga01.html">G. Goodrich</a>* <span>(23.87)</span></td>
+<td><a href="/players/w/wickssi01.html">S. Wicks</a> <span>(23.82)</span></td>
+<td><a href="/players/l/laniebo01.html">B. Lanier</a>* <span>(23.79)</span></td>
+</tr>
+<tr>
+<td>1972-73</td>
+<td><a href="/leagues/ABA_1973.html">ABA</a></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(31.94)</span></td>
+<td><a href="/players/m/mcginge01.html">G. McGinnis</a>* <span>(27.57)</span></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(27.29)</span></td>
+<td><a href="/players/c/cunnibi01.html">B. Cunningham</a>* <span>(24.14)</span></td>
+<td><a href="/players/s/simpsra01.html">R. Simpson</a> <span>(23.33)</span></td>
+<td><a href="/players/j/johnsst01.html">S. Johnson</a> <span>(22.12)</span></td>
+<td><a href="/players/w/wisewi01.html">W. Wise</a> <span>(21.96)</span></td>
+<td><a href="/players/t/thompge01.html">G. Thompson</a> <span>(21.59)</span></td>
+<td><a href="/players/g/gilmoar01.html">A. Gilmore</a>* <span>(20.75)</span></td>
+<td><a href="/players/n/neumajo01.html">J. Neumann</a> <span>(19.59)</span></td>
+</tr>
+<tr>
+<td>1971-72</td>
+<td><a href="/leagues/NBA_1972.html">NBA</a></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(34.84)</span></td>
+<td><a href="/players/a/architi01.html">T. Archibald</a>* <span>(28.22)</span></td>
+<td><a href="/players/h/havlijo01.html">J. Havlicek</a>* <span>(27.46)</span></td>
+<td><a href="/players/h/haywosp01.html">S. Haywood</a>* <span>(26.22)</span></td>
+<td><a href="/players/g/goodrga01.html">G. Goodrich</a>* <span>(25.94)</span></td>
+<td><a href="/players/l/lovebo01.html">B. Love</a> <span>(25.78)</span></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(25.78)</span></td>
+<td><a href="/players/l/laniebo01.html">B. Lanier</a>* <span>(25.70)</span></td>
+<td><a href="/players/c/clarkar01.html">A. Clark</a> <span>(25.17)</span></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(25.16)</span></td>
+</tr>
+<tr>
+<td>1971-72</td>
+<td><a href="/leagues/ABA_1972.html">ABA</a></td>
+<td><a href="/players/s/scottch01.html">C. Scott</a>* <span>(34.58)</span></td>
+<td><a href="/players/b/barryri01.html">R. Barry</a>* <span>(31.48)</span></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(30.58)</span></td>
+<td><a href="/players/s/simpsra01.html">R. Simpson</a> <span>(27.38)</span></td>
+<td><a href="/players/e/ervinju01.html">J. Erving</a>* <span>(27.26)</span></td>
+<td><a href="/players/t/thompge01.html">G. Thompson</a> <span>(26.97)</span></td>
+<td><a href="/players/f/freemdo01.html">D. Freeman</a> <span>(24.07)</span></td>
+<td><a href="/players/g/gilmoar01.html">A. Gilmore</a>* <span>(23.85)</span></td>
+<td><a href="/players/b/beatyze01.html">Z. Beaty</a>* <span>(23.57)</span></td>
+<td><a href="/players/w/wisewi01.html">W. Wise</a> <span>(23.23)</span></td>
+</tr>
+<tr>
+<td>1970-71</td>
+<td><a href="/leagues/NBA_1971.html">NBA</a></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(31.66)</span></td>
+<td><a href="/players/h/havlijo01.html">J. Havlicek</a>* <span>(28.86)</span></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(28.66)</span></td>
+<td><a href="/players/b/bingda01.html">D. Bing</a>* <span>(26.99)</span></td>
+<td><a href="/players/h/hudsolo01.html">L. Hudson</a>* <span>(26.83)</span></td>
+<td><a href="/players/l/lovebo01.html">B. Love</a> <span>(25.22)</span></td>
+<td><a href="/players/p/petrige01.html">G. Petrie</a> <span>(24.77)</span></td>
+<td><a href="/players/m/maravpe01.html">P. Maravich</a>* <span>(23.21)</span></td>
+<td><a href="/players/c/cunnibi01.html">B. Cunningham</a>* <span>(22.95)</span></td>
+<td><a href="/players/v/vanarto01.html">T. Van Arsdale</a> <span>(22.87)</span></td>
+</tr>
+<tr>
+<td>1970-71</td>
+<td><a href="/leagues/ABA_1971.html">ABA</a></td>
+<td><a href="/players/i/isselda01.html">D. Issel</a>* <span>(29.88)</span></td>
+<td><a href="/players/b/briskjo01.html">J. Brisker</a> <span>(29.30)</span></td>
+<td><a href="/players/c/calvima01.html">M. Calvin</a> <span>(27.17)</span></td>
+<td><a href="/players/s/scottch01.html">C. Scott</a>* <span>(27.10)</span></td>
+<td><a href="/players/c/cannola01.html">L. Cannon</a> <span>(26.57)</span></td>
+<td><a href="/players/j/jonesla01.html">L. Jones</a> <span>(24.33)</span></td>
+<td><a href="/players/c/caldwjo01.html">J. Caldwell</a> <span>(23.31)</span></td>
+<td><a href="/players/b/beatyze01.html">Z. Beaty</a>* <span>(22.95)</span></td>
+<td><a href="/players/j/jonesst01.html">S. Jones</a> <span>(22.12)</span></td>
+<td><a href="/players/d/danieme01.html">M. Daniels</a>* <span>(21.01)</span></td>
+</tr>
+<tr>
+<td>1969-70</td>
+<td><a href="/leagues/NBA_1970.html">NBA</a></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(31.20)</span></td>
+<td><a href="/players/a/abdulka01.html">K. Abdul-Jabbar</a>* <span>(28.79)</span></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(27.51)</span></td>
+<td><a href="/players/c/cunnibi01.html">B. Cunningham</a>* <span>(26.10)</span></td>
+<td><a href="/players/h/hudsolo01.html">L. Hudson</a>* <span>(25.39)</span></td>
+<td><a href="/players/h/hawkico01.html">C. Hawkins</a>* <span>(24.63)</span></td>
+<td><a href="/players/r/rulebo01.html">B. Rule</a> <span>(24.56)</span></td>
+<td><a href="/players/h/havlijo01.html">J. Havlicek</a>* <span>(24.20)</span></td>
+<td><a href="/players/m/monroea01.html">E. Monroe</a>* <span>(23.44)</span></td>
+<td><a href="/players/b/bingda01.html">D. Bing</a>* <span>(22.91)</span></td>
+</tr>
+<tr>
+<td>1969-70</td>
+<td><a href="/leagues/ABA_1970.html">ABA</a></td>
+<td><a href="/players/h/haywosp01.html">S. Haywood</a>* <span>(29.99)</span></td>
+<td><a href="/players/v/vergabo01.html">B. Verga</a> <span>(27.54)</span></td>
+<td><a href="/players/f/freemdo01.html">D. Freeman</a> <span>(27.38)</span></td>
+<td><a href="/players/d/dampilo01.html">L. Dampier</a>* <span>(25.99)</span></td>
+<td><a href="/players/j/jonesla01.html">L. Jones</a> <span>(24.93)</span></td>
+<td><a href="/players/t/tartle01.html">L. Tart</a> <span>(24.19)</span></td>
+<td><a href="/players/c/carrida01.html">D. Carrier</a> <span>(23.05)</span></td>
+<td><a href="/players/b/brownro01.html">R. Brown</a>* <span>(23.04)</span></td>
+<td><a href="/players/c/combsgl01.html">G. Combs</a> <span>(22.24)</span></td>
+<td><a href="/players/j/jonesst01.html">S. Jones</a> <span>(21.49)</span></td>
+</tr>
+<tr>
+<td>1968-69</td>
+<td><a href="/leagues/NBA_1969.html">NBA</a></td>
+<td><a href="/players/h/hayesel01.html">E. Hayes</a>* <span>(28.38)</span></td>
+<td><a href="/players/m/monroea01.html">E. Monroe</a>* <span>(25.81)</span></td>
+<td><a href="/players/c/cunnibi01.html">B. Cunningham</a>* <span>(24.80)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(24.75)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(24.75)</span></td>
+<td><a href="/players/r/rulebo01.html">B. Rule</a> <span>(23.96)</span></td>
+<td><a href="/players/g/goodrga01.html">G. Goodrich</a>* <span>(23.84)</span></td>
+<td><a href="/players/b/bingda01.html">D. Bing</a>* <span>(23.38)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(23.12)</span></td>
+<td><a href="/players/m/mullije01.html">J. Mullins</a> <span>(22.76)</span></td>
+</tr>
+<tr>
+<td>1968-69</td>
+<td><a href="/leagues/ABA_1969.html">ABA</a></td>
+<td><a href="/players/j/jonesla01.html">L. Jones</a> <span>(28.44)</span></td>
+<td><a href="/players/j/jonesji01.html">J. Jones</a> <span>(26.62)</span></td>
+<td><a href="/players/d/dampilo01.html">L. Dampier</a>* <span>(24.78)</span></td>
+<td><a href="/players/d/danieme01.html">M. Daniels</a>* <span>(24.00)</span></td>
+<td><a href="/players/s/somerwi01.html">W. Somerset</a> <span>(23.76)</span></td>
+<td><a href="/players/c/carrida01.html">D. Carrier</a> <span>(23.15)</span></td>
+<td><a href="/players/f/freemdo01.html">D. Freeman</a> <span>(22.10)</span></td>
+<td><a href="/players/j/jabalwa01.html">W. Jabali</a> <span>(21.55)</span></td>
+<td><a href="/players/b/brownro01.html">R. Brown</a>* <span>(20.97)</span></td>
+<td><a href="/players/l/lewisfr02.html">F. Lewis</a> <span>(20.32)</span></td>
+</tr>
+<tr>
+<td>1967-68</td>
+<td><a href="/leagues/NBA_1968.html">NBA</a></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(29.17)</span></td>
+<td><a href="/players/b/bingda01.html">D. Bing</a>* <span>(27.11)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(26.00)</span></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(24.29)</span></td>
+<td><a href="/players/m/monroea01.html">E. Monroe</a>* <span>(24.28)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(24.10)</span></td>
+<td><a href="/players/a/abdulma01.html">W. Hazzard</a> <span>(23.97)</span></td>
+<td><a href="/players/l/larusru01.html">R. LaRusso</a> <span>(21.85)</span></td>
+<td><a href="/players/b/boozebo01.html">B. Boozer</a> <span>(21.49)</span></td>
+<td><a href="/players/l/lucasje01.html">J. Lucas</a>* <span>(21.46)</span></td>
+</tr>
+<tr>
+<td>1967-68</td>
+<td><a href="/leagues/ABA_1968.html">ABA</a></td>
+<td><a href="/players/h/hawkico01.html">C. Hawkins</a>* <span>(26.79)</span></td>
+<td><a href="/players/m/moedo01.html">D. Moe</a> <span>(24.15)</span></td>
+<td><a href="/players/t/tartle01.html">L. Tart</a> <span>(23.53)</span></td>
+<td><a href="/players/c/carrida01.html">D. Carrier</a> <span>(22.92)</span></td>
+<td><a href="/players/j/jonesla01.html">L. Jones</a> <span>(22.92)</span></td>
+<td><a href="/players/d/danieme01.html">M. Daniels</a>* <span>(22.17)</span></td>
+<td><a href="/players/w/willich01.html">C. Williams</a> <span>(20.83)</span></td>
+<td><a href="/players/d/dampilo01.html">L. Dampier</a>* <span>(20.65)</span></td>
+<td><a href="/players/l/lewisfr02.html">F. Lewis</a> <span>(20.59)</span></td>
+<td><a href="/players/v/vaughch01.html">C. Vaughn</a> <span>(19.85)</span></td>
+</tr>
+<tr>
+<td>1966-67</td>
+<td><a href="/leagues/NBA_1967.html">NBA</a></td>
+<td><a href="/players/b/barryri01.html">R. Barry</a>* <span>(35.58)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(30.53)</span></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(28.67)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(26.60)</span></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(24.15)</span></td>
+<td><a href="/players/j/jonessa01.html">S. Jones</a>* <span>(22.14)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(22.06)</span></td>
+<td><a href="/players/h/havlijo01.html">J. Havlicek</a>* <span>(21.40)</span></td>
+<td><a href="/players/r/reedwi01.html">W. Reed</a>* <span>(20.87)</span></td>
+<td><a href="/players/j/johnsgu01.html">G. Johnson</a>* <span>(20.70)</span></td>
+</tr>
+<tr>
+<td>1965-66</td>
+<td><a href="/leagues/NBA_1966.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(33.53)</span></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(31.34)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(31.29)</span></td>
+<td><a href="/players/b/barryri01.html">R. Barry</a>* <span>(25.74)</span></td>
+<td><a href="/players/j/jonessa01.html">S. Jones</a>* <span>(23.54)</span></td>
+<td><a href="/players/b/barnedi01.html">D. Barnett</a> <span>(23.05)</span></td>
+<td><a href="/players/b/bellawa01.html">W. Bellamy</a>* <span>(22.75)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(22.74)</span></td>
+<td><a href="/players/l/lucasje01.html">J. Lucas</a>* <span>(21.48)</span></td>
+<td><a href="/players/b/beatyze01.html">Z. Beaty</a>* <span>(20.70)</span></td>
+</tr>
+<tr>
+<td>1964-65</td>
+<td><a href="/leagues/NBA_1965.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(34.71)</span></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(30.97)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(30.39)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(27.15)</span></td>
+<td><a href="/players/j/jonessa01.html">S. Jones</a>* <span>(25.88)</span></td>
+<td><a href="/players/b/bellawa01.html">W. Bellamy</a>* <span>(24.76)</span></td>
+<td><a href="/players/l/lucasje01.html">J. Lucas</a>* <span>(21.42)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(20.19)</span></td>
+<td><a href="/players/r/reedwi01.html">W. Reed</a>* <span>(19.50)</span></td>
+<td><a href="/players/h/howelba01.html">B. Howell</a>* <span>(19.18)</span></td>
+</tr>
+<tr>
+<td>1963-64</td>
+<td><a href="/leagues/NBA_1964.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(36.85)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(31.39)</span></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(28.67)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(27.38)</span></td>
+<td><a href="/players/b/bellawa01.html">W. Bellamy</a>* <span>(26.99)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(25.42)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(23.31)</span></td>
+<td><a href="/players/h/howelba01.html">B. Howell</a>* <span>(21.64)</span></td>
+<td><a href="/players/d/dischte01.html">T. Dischinger</a> <span>(20.77)</span></td>
+<td><a href="/players/h/havlijo01.html">J. Havlicek</a>* <span>(19.94)</span></td>
+</tr>
+<tr>
+<td>1962-63</td>
+<td><a href="/leagues/NBA_1963.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(44.83)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(33.99)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(28.37)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(28.30)</span></td>
+<td><a href="/players/b/bellawa01.html">W. Bellamy</a>* <span>(27.91)</span></td>
+<td><a href="/players/h/howelba01.html">B. Howell</a>* <span>(22.70)</span></td>
+<td><a href="/players/g/gueriri01.html">R. Guerin</a>* <span>(21.53)</span></td>
+<td><a href="/players/t/twymaja01.html">J. Twyman</a>* <span>(19.82)</span></td>
+<td><a href="/players/j/jonessa01.html">S. Jones</a>* <span>(19.72)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(19.52)</span></td>
+</tr>
+<tr>
+<td>1961-62</td>
+<td><a href="/leagues/NBA_1962.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(50.36)</span></td>
+<td><a href="/players/b/bellawa01.html">W. Bellamy</a>* <span>(31.58)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(31.14)</span></td>
+<td><a href="/players/w/westje01.html">J. West</a>* <span>(30.80)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(30.78)</span></td>
+<td><a href="/players/g/gueriri01.html">R. Guerin</a>* <span>(29.53)</span></td>
+<td><a href="/players/n/naullwi01.html">W. Naulls</a> <span>(25.03)</span></td>
+<td><a href="/players/h/hagancl01.html">C. Hagan</a>* <span>(22.91)</span></td>
+<td><a href="/players/t/twymaja01.html">J. Twyman</a>* <span>(22.89)</span></td>
+<td><a href="/players/g/greerha01.html">H. Greer</a>* <span>(22.80)</span></td>
+</tr>
+<tr>
+<td>1960-61</td>
+<td><a href="/leagues/NBA_1961.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(38.39)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(34.77)</span></td>
+<td><a href="/players/r/roberos01.html">O. Robertson</a>* <span>(30.49)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(27.89)</span></td>
+<td><a href="/players/t/twymaja01.html">J. Twyman</a>* <span>(25.28)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(23.65)</span></td>
+<td><a href="/players/h/howelba01.html">B. Howell</a>* <span>(23.57)</span></td>
+<td><a href="/players/n/naullwi01.html">W. Naulls</a> <span>(23.37)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(23.19)</span></td>
+<td><a href="/players/s/shuege01.html">G. Shue</a> <span>(22.63)</span></td>
+</tr>
+<tr>
+<td>1959-60</td>
+<td><a href="/leagues/NBA_1960.html">NBA</a></td>
+<td><a href="/players/c/chambwi01.html">W. Chamberlain</a>* <span>(37.60)</span></td>
+<td><a href="/players/t/twymaja01.html">J. Twyman</a>* <span>(31.17)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(29.63)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(26.14)</span></td>
+<td><a href="/players/h/hagancl01.html">C. Hagan</a>* <span>(24.79)</span></td>
+<td><a href="/players/s/shuege01.html">G. Shue</a> <span>(22.83)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(22.52)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(22.31)</span></td>
+<td><a href="/players/g/gueriri01.html">R. Guerin</a>* <span>(21.82)</span></td>
+<td><a href="/players/h/heinsto01.html">T. Heinsohn</a>* <span>(21.72)</span></td>
+</tr>
+<tr>
+<td>1958-59</td>
+<td><a href="/leagues/NBA_1959.html">NBA</a></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(29.24)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(26.44)</span></td>
+<td><a href="/players/t/twymaja01.html">J. Twyman</a>* <span>(25.79)</span></td>
+<td><a href="/players/b/bayloel01.html">E. Baylor</a>* <span>(24.89)</span></td>
+<td><a href="/players/h/hagancl01.html">C. Hagan</a>* <span>(23.71)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(21.31)</span></td>
+<td><a href="/players/s/searske01.html">K. Sears</a> <span>(20.96)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(20.36)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(19.95)</span></td>
+<td><a href="/players/y/yardlge01.html">G. Yardley</a>* <span>(19.82)</span></td>
+</tr>
+<tr>
+<td>1957-58</td>
+<td><a href="/leagues/NBA_1958.html">NBA</a></td>
+<td><a href="/players/y/yardlge01.html">G. Yardley</a>* <span>(27.79)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(24.88)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(24.56)</span></td>
+<td><a href="/players/l/lovelcl01.html">C. Lovellette</a>* <span>(23.37)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(22.25)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(20.68)</span></td>
+<td><a href="/players/h/hagancl01.html">C. Hagan</a>* <span>(19.87)</span></td>
+<td><a href="/players/j/johnsne01.html">N. Johnston</a>* <span>(19.55)</span></td>
+<td><a href="/players/s/searske01.html">K. Sears</a> <span>(18.64)</span></td>
+<td><a href="/players/n/naullwi01.html">W. Naulls</a> <span>(18.06)</span></td>
+</tr>
+<tr>
+<td>1956-57</td>
+<td><a href="/leagues/NBA_1957.html">NBA</a></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(25.59)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(24.72)</span></td>
+<td><a href="/players/j/johnsne01.html">N. Johnston</a>* <span>(22.83)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(22.46)</span></td>
+<td><a href="/players/y/yardlge01.html">G. Yardley</a>* <span>(21.49)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(21.09)</span></td>
+<td><a href="/players/l/lovelcl01.html">C. Lovellette</a>* <span>(20.78)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(20.61)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(16.49)</span></td>
+<td><a href="/players/g/garmadi01.html">D. Garmaker</a> <span>(16.35)</span></td>
+</tr>
+<tr>
+<td>1955-56</td>
+<td><a href="/leagues/NBA_1956.html">NBA</a></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(25.68)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(24.18)</span></td>
+<td><a href="/players/j/johnsne01.html">N. Johnston</a>* <span>(22.10)</span></td>
+<td><a href="/players/l/lovelcl01.html">C. Lovellette</a>* <span>(21.49)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(20.44)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(19.92)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(18.83)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(17.46)</span></td>
+<td><a href="/players/y/yardlge01.html">G. Yardley</a>* <span>(17.37)</span></td>
+<td><a href="/players/s/stokema01.html">M. Stokes</a>* <span>(16.79)</span></td>
+</tr>
+<tr>
+<td>1954-55</td>
+<td><a href="/leagues/NBA_1955.html">NBA</a></td>
+<td><a href="/players/j/johnsne01.html">N. Johnston</a>* <span>(22.65)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(21.18)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(21.00)</span></td>
+<td><a href="/players/p/pettibo01.html">B. Pettit</a>* <span>(20.36)</span></td>
+<td><a href="/players/s/selvyfr01.html">F. Selvy</a> <span>(18.99)</span></td>
+<td><a href="/players/l/lovelcl01.html">C. Lovellette</a>* <span>(18.73)</span></td>
+<td><a href="/players/m/mikkeve01.html">V. Mikkelsen</a>* <span>(18.69)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(18.51)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(18.43)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(17.58)</span></td>
+</tr>
+<tr>
+<td>1953-54</td>
+<td><a href="/leagues/NBA_1954.html">NBA</a></td>
+<td><a href="/players/j/johnsne01.html">N. Johnston</a>* <span>(24.43)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(19.21)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(18.93)</span></td>
+<td><a href="/players/m/mikange01.html">G. Mikan</a>* <span>(18.14)</span></td>
+<td><a href="/players/f/felixra01.html">R. Felix</a> <span>(17.62)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(17.06)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(16.04)</span></td>
+<td><a href="/players/f/foustla01.html">L. Foust</a> <span>(15.14)</span></td>
+<td><a href="/players/b/braunca01.html">C. Braun</a>* <span>(14.75)</span></td>
+<td><a href="/players/w/wanzebo01.html">B. Wanzer</a>* <span>(13.31)</span></td>
+</tr>
+<tr>
+<td>1952-53</td>
+<td><a href="/leagues/NBA_1953.html">NBA</a></td>
+<td><a href="/players/j/johnsne01.html">N. Johnston</a>* <span>(22.34)</span></td>
+<td><a href="/players/m/mikange01.html">G. Mikan</a>* <span>(20.60)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(20.32)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(19.82)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(17.77)</span></td>
+<td><a href="/players/s/sharmbi01.html">B. Sharman</a>* <span>(16.15)</span></td>
+<td><a href="/players/n/nichoja01.html">J. Nichols</a> <span>(15.80)</span></td>
+<td><a href="/players/d/daviebo01.html">B. Davies</a>* <span>(15.59)</span></td>
+<td><a href="/players/m/mikkeve01.html">V. Mikkelsen</a>* <span>(14.96)</span></td>
+<td><a href="/players/w/wanzebo01.html">B. Wanzer</a>* <span>(14.57)</span></td>
+</tr>
+<tr>
+<td>1951-52</td>
+<td><a href="/leagues/NBA_1952.html">NBA</a></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(25.36)</span></td>
+<td><a href="/players/m/mikange01.html">G. Mikan</a>* <span>(23.80)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(21.71)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(19.15)</span></td>
+<td><a href="/players/d/daviebo01.html">B. Davies</a>* <span>(16.18)</span></td>
+<td><a href="/players/b/brianfr01.html">F. Brian</a> <span>(15.92)</span></td>
+<td><a href="/players/f/foustla01.html">L. Foust</a> <span>(15.86)</span></td>
+<td><a href="/players/w/wanzebo01.html">B. Wanzer</a>* <span>(15.65)</span></td>
+<td><a href="/players/r/risenar01.html">A. Risen</a>* <span>(15.64)</span></td>
+<td><a href="/players/p/pollaji01.html">J. Pollard</a>* <span>(15.46)</span></td>
+</tr>
+<tr>
+<td>1950-51</td>
+<td><a href="/leagues/NBA_1951.html">NBA</a></td>
+<td><a href="/players/m/mikange01.html">G. Mikan</a>* <span>(28.41)</span></td>
+<td><a href="/players/g/grozaal01.html">A. Groza</a> <span>(21.65)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(20.35)</span></td>
+<td><a href="/players/f/fulksjo01.html">J. Fulks</a>* <span>(18.73)</span></td>
+<td><a href="/players/a/arizipa01.html">P. Arizin</a>* <span>(17.25)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(16.98)</span></td>
+<td><a href="/players/b/beardra01.html">R. Beard</a> <span>(16.83)</span></td>
+<td><a href="/players/b/brianfr01.html">F. Brian</a> <span>(16.82)</span></td>
+<td><a href="/players/r/risenar01.html">A. Risen</a>* <span>(16.32)</span></td>
+<td><a href="/players/c/cousybo01.html">B. Cousy</a>* <span>(15.62)</span></td>
+</tr>
+<tr>
+<td>1949-50</td>
+<td><a href="/leagues/NBA_1950.html">NBA</a></td>
+<td><a href="/players/m/mikange01.html">G. Mikan</a>* <span>(27.43)</span></td>
+<td><a href="/players/g/grozaal01.html">A. Groza</a> <span>(23.38)</span></td>
+<td><a href="/players/b/brianfr01.html">F. Brian</a> <span>(17.78)</span></td>
+<td><a href="/players/s/sailoke01.html">K. Sailors</a> <span>(17.32)</span></td>
+<td><a href="/players/s/schaydo01.html">D. Schayes</a>* <span>(16.75)</span></td>
+<td><a href="/players/z/zasloma01.html">M. Zaslofsky</a> <span>(16.40)</span></td>
+<td><a href="/players/m/macaued01.html">E. Macauley</a>* <span>(16.13)</span></td>
+<td><a href="/players/b/braunca01.html">C. Braun</a>* <span>(15.39)</span></td>
+<td><a href="/players/b/beardra01.html">R. Beard</a> <span>(14.92)</span></td>
+<td><a href="/players/p/pollaji01.html">J. Pollard</a>* <span>(14.74)</span></td>
+</tr>
+<tr>
+<td>1948-49</td>
+<td><a href="/leagues/BAA_1949.html">BAA</a></td>
+<td><a href="/players/m/mikange01.html">G. Mikan</a>* <span>(28.30)</span></td>
+<td><a href="/players/f/fulksjo01.html">J. Fulks</a>* <span>(26.00)</span></td>
+<td><a href="/players/z/zasloma01.html">M. Zaslofsky</a> <span>(20.64)</span></td>
+<td><a href="/players/r/risenar01.html">A. Risen</a>* <span>(16.58)</span></td>
+<td><a href="/players/s/sailoke01.html">K. Sailors</a> <span>(15.77)</span></td>
+<td><a href="/players/s/smawlbe01.html">B. Smawley</a> <span>(15.49)</span></td>
+<td><a href="/players/s/sadowed01.html">E. Sadowski</a> <span>(15.33)</span></td>
+<td><a href="/players/d/daviebo01.html">B. Davies</a>* <span>(15.07)</span></td>
+<td><a href="/players/p/pollaji01.html">J. Pollard</a>* <span>(14.79)</span></td>
+<td><a href="/players/b/braunca01.html">C. Braun</a>* <span>(14.21)</span></td>
+</tr>
+<tr>
+<td>1947-48</td>
+<td><a href="/leagues/BAA_1948.html">BAA</a></td>
+<td><a href="/players/f/fulksjo01.html">J. Fulks</a>* <span>(22.07)</span></td>
+<td><a href="/players/z/zasloma01.html">M. Zaslofsky</a> <span>(20.98)</span></td>
+<td><a href="/players/s/sadowed01.html">E. Sadowski</a> <span>(19.36)</span></td>
+<td><a href="/players/f/feeribo01.html">B. Feerick</a> <span>(16.15)</span></td>
+<td><a href="/players/m/miasest01.html">S. Miasek</a> <span>(14.92)</span></td>
+<td><a href="/players/b/braunca01.html">C. Braun</a>* <span>(14.28)</span></td>
+<td><a href="/players/l/loganjo01.html">J. Logan</a> <span>(13.42)</span></td>
+<td><a href="/players/p/palmebu01.html">B. Palmer</a> <span>(12.96)</span></td>
+<td><a href="/players/r/rochare01.html">R. Rocha</a> <span>(12.73)</span></td>
+<td><a href="/players/s/scolafr01.html">F. Scolari</a> <span>(12.53)</span></td>
+</tr>
+<tr>
+<td>1946-47</td>
+<td><a href="/leagues/BAA_1947.html">BAA</a></td>
+<td><a href="/players/f/fulksjo01.html">J. Fulks</a>* <span>(23.15)</span></td>
+<td><a href="/players/f/feeribo01.html">B. Feerick</a> <span>(16.84)</span></td>
+<td><a href="/players/s/sadowed01.html">E. Sadowski</a> <span>(16.55)</span></td>
+<td><a href="/players/m/miasest01.html">S. Miasek</a> <span>(14.92)</span></td>
+<td><a href="/players/z/zasloma01.html">M. Zaslofsky</a> <span>(14.38)</span></td>
+<td><a href="/players/c/calveer01.html">E. Calverley</a> <span>(14.32)</span></td>
+<td><a href="/players/g/gunthco01.html">C. Gunther</a> <span>(14.12)</span></td>
+<td><a href="/players/b/baumhfr01.html">F. Baumholtz</a> <span>(14.02)</span></td>
+<td><a href="/players/m/mogusle01.html">L. Mogus</a> <span>(12.98)</span></td>
+<td><a href="/players/h/halbech01.html">C. Halbert</a> <span>(12.67)</span></td>
+</tr>
+
+</table>
+
+
+</div>
+
+<div class="placeholder"></div>
+
+</div>
+
+            
+            
+            
+         
+      
+
+<!-- global.nonempty_tables_num: 3, table_count: 3 -->
+   <!-- no Local/Partials/NoteBottom.tt2 -->
+<div id="bottom_nav" class="section_wrapper">
+<div class="section_heading"><span data-no-inpage="1" class="section_anchor" id="inner_nav_bottom_link" data-label="Other Points Per Game Leaderboards"></span><h2>Other Points Per Game Leaderboards</h2></div>
+<div class="section_content" id="bottom_nav_container">
+
+  <p><a href="/leaders/"><u>Leaders Index</u></a></p>
+  <p class="listhead">Regular Season</p>
+        <ul class="">
+          <li><a href="/leaders/pts_per_g_season.html">Single Season</a></li>
+          <li><a href="/leaders/pts_per_g_career.html">Career</a></li>
+          <li><a href="/leaders/pts_per_g_active.html">Active</a></li>
+          <li><a href="/leaders/pts_per_g_progress.html">Progressive</a></li>
+          <li><a href="/leaders/pts_per_g_yearly.html">Year-by-Year</a></li>
+          <li><a href="/leaders/pts_per_g_top_10.html">Year-by-Year Top 10</a></li>
+        </ul><p class="listhead">Playoffs</p>
+        <ul class="">
+          <li><a href="/leaders/pts_per_g_season_p.html">Single Season</a></li>
+          <li><a href="/leaders/pts_per_g_career_p.html">Career</a></li>
+          <li><a href="/leaders/pts_per_g_active_p.html">Active</a></li>
+          <li><a href="/leaders/pts_per_g_progress_p.html">Progressive</a></li>
+          <li><a href="/leaders/pts_per_g_yearly_p.html">Year-by-Year</a></li>
+          <li><a href="/leaders/pts_per_g_top_10_p.html">Year-by-Year Top 10</a></li>
+        </ul><p class="listhead">Finals</p>
+        <ul class="">
+          <li><a href="/leaders/pts_per_g_career_finals.html">Career</a></li>
+          <li><a href="/leaders/pts_per_g_active_finals.html">Active</a></li>
+        </ul></div></div>
+
+   
+
+</div><!-- div#content -->
+
+
+<div id="footer" role="contentinfo">
+	<div id="footer_header">
+		 <ul class="bullets-inline"><li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=bbr&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+</ul>
+		 <div class="breadcrumbs">You are here: <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">BBR Home Page</span></a> <meta itemprop="position" content="1" /></span> &gt; <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href='/leaders/'><span itemprop="name">Leaders and Records</span></a> <meta itemprop="position" content="2" /></span> &gt; <strong>Year-by-Year Top 10 Points Per Game</strong></div>
+	</div><!-- div#footer_header -->
+
+	<div id="footer_general">
+		<div id="site_menu" role="navigation" aria-label="complete site index">
+			
+			
+<div class="section_heading assoc_site_menu" id="site_menu_sh">
+  <span class="section_anchor" id="site_menu_link" data-label="Full Site Menu"></span><h2>Full Site Menu</h2>    <div class="section_heading_text">
+      <ul><li><a data-scroll href="#header">Return to Top</a></li>
+      </ul>
+    </div>
+    		
+</div>
+			
+				<ul>
+  <li>
+    <a href="/players/">Players</a>
+    <div><strong>In the News</strong>: 
+      <!-- Begin:In the News -->
+<a title="LeBron James" href="/players/j/jamesle01.html">L. James</a>,
+<a title="Kevin Durant" href="/players/d/duranke01.html">K. Durant</a>,
+<a title="Joel Embiid" href="/players/e/embiijo01.html">J. Embiid</a>,
+<a title="James Harden" href="/players/h/hardeja01.html">J. Harden</a>,
+<a title="Stephen Curry" href="/players/c/curryst01.html">S. Curry</a>,
+<a title="Luka Dončić" href="/players/d/doncilu01.html">L. Dončić</a>
+<!-- End:In the News -->
+      <a href="/players/">...</a>
+    </div>
+
+	<div><strong>All-Time Greats</strong>: 
+      <!-- Begin:All-Time Greats -->
+<a title="Elvin Hayes" href="/players/h/hayesel01.html">E. Hayes</a>,
+<a title="John Stockton" href="/players/s/stockjo01.html">J. Stockton</a>,
+<a title="Hakeem Olajuwon" href="/players/o/olajuha01.html">H. Olajuwon</a>,
+<a title="Wilt Chamberlain" href="/players/c/chambwi01.html">W. Chamberlain</a>,
+<a title="Dolph Schayes" href="/players/s/schaydo01.html">D. Schayes</a>,
+<a title="John Havlicek" href="/players/h/havlijo01.html">J. Havlicek</a>
+<!-- End:All-Time Greats -->
+      <a href="/players/">...</a>
+    </div>
+
+    <div><strong>Active Greats</strong>: 
+      <!-- Begin:Active Greats -->
+<a title="LeBron James" href="/players/j/jamesle01.html">L. James</a>,
+<a title="Giannis Antetokounmpo" href="/players/a/antetgi01.html">G. Antetokounmpo</a>,
+<a title="Chris Paul" href="/players/p/paulch01.html">C. Paul</a>,
+<a title="James Harden" href="/players/h/hardeja01.html">J. Harden</a>,
+<a title="Stephen Curry" href="/players/c/curryst01.html">S. Curry</a>,
+<a title="Kevin Durant" href="/players/d/duranke01.html">K. Durant</a>
+<!-- End:Active Greats -->
+      <a href="/players/">...</a>
+    </div>
+  </li>
+
+  <li>
+    <a href="/teams/">Teams</a>
+    <!-- Begin:Teams -->
+    <div class="division">
+      <strong>Atlantic</strong>:
+      <a href="/teams/TOR/2022.html">Toronto</a>,
+      <a href="/teams/BOS/2022.html">Boston</a>,
+      <a href="/teams/NYK/2022.html">New York</a>,
+      <a href="/teams/BRK/2022.html">Brooklyn</a>,
+      <a href="/teams/PHI/2022.html">Philadelphia</a>
+    </div>
+
+    <div class="division">
+      <strong>Central</strong>:
+      <a href="/teams/CLE/2022.html">Cleveland</a>,
+      <a href="/teams/IND/2022.html">Indiana</a>,
+      <a href="/teams/DET/2022.html">Detroit</a>,
+      <a href="/teams/CHI/2022.html">Chicago</a>,
+      <a href="/teams/MIL/2022.html">Milwaukee</a>
+    </div>
+
+    <div class="division">
+      <strong>Southeast</strong>:
+      <a href="/teams/MIA/2022.html">Miami</a>,
+      <a href="/teams/ATL/2022.html">Atlanta</a>,
+      <a href="/teams/CHO/2022.html">Charlotte</a>,
+      <a href="/teams/WAS/2022.html">Washington</a>,
+      <a href="/teams/ORL/2022.html">Orlando</a>
+    </div>
+
+    <div class="division">
+      <strong>Northwest</strong>:
+      <a href="/teams/OKC/2022.html">Oklahoma City</a>,
+      <a href="/teams/POR/2022.html">Portland</a>,
+      <a href="/teams/UTA/2022.html">Utah</a>,
+      <a href="/teams/DEN/2022.html">Denver</a>,
+      <a href="/teams/MIN/2022.html">Minnesota</a>
+    </div>
+
+    <div class="division">
+      <strong>Pacific</strong>:
+      <a href="/teams/GSW/2022.html">Golden State</a>,
+      <a href="/teams/LAC/2022.html">Los Angeles Clippers</a>,
+      <a href="/teams/SAC/2022.html">Sacramento</a>,
+      <a href="/teams/PHO/2022.html">Phoenix</a>,
+      <a href="/teams/LAL/2022.html">Los Angeles Lakers</a>
+    </div>
+
+    <div class="division">
+      <strong>Southwest</strong>:
+      <a href="/teams/SAS/2022.html">San Antonio</a>,
+      <a href="/teams/DAL/2022.html">Dallas</a>,
+      <a href="/teams/MEM/2022.html">Memphis</a>,
+      <a href="/teams/HOU/2022.html">Houston</a>,      
+      <a href="/teams/NOP/2022.html">New Orleans</a>
+    </div>
+<!-- End:Teams -->
+  </li>
+
+  <li>
+    <a href="/leagues/">Seasons</a>
+    <div>
+      <!-- Begin:Seasons -->
+<a href="/leagues/NBA_2022.html">2021-22</a>,
+<a href="/leagues/NBA_2021.html">2020-21</a>,
+<a href="/leagues/NBA_2020.html">2019-20</a>,
+<a href="/leagues/NBA_2019.html">2018-19</a>,
+<a href="/leagues/NBA_2018.html">2017-18</a>,
+<a href="/leagues/NBA_2017.html">2016-17</a>,
+<a href="/leagues/NBA_2016.html">2015-16</a>
+<!-- End:Seasons -->
+    </div>
+  </li>
+
+  <li>
+    <a href="/leaders/">Leaders</a>
+    <div>
+      <a href="/leaders/pts_season.html">Season Points</a>, 
+      <a href="/leaders/trb_career.html">Career Rebounds</a>, 
+      <a href="/leaders/ast_active.html">Active Assists</a>, 
+      <a href="/leaders/stl_yearly.html">Yearly Steals</a>, 
+      <a href="/leaders/blk_progress.html">Progressive Blocks</a>
+      ...
+    </div>
+    <div>
+      Or, view <a href='/trailers/'>"Trailers"</a> for <a href='/trailers/fg_pct_season.html'>Season Field Goal Pct</a>, or <a href='/trailers/blk_per_g_career.html'>Career Blocks Per Game</a>
+    </div>
+  </li>
+
+  <li>
+    <a href="/boxscores/">NBA Scores</a>
+    <div>
+      <a href="/boxscores/">Yesterday's Games</a> and <a href="/boxscores/">Scores from any date in BAA/NBA or ABA history</a>
+    </div>
+  </li>
+
+  <li>
+    <!-- Begin:Schedules -->
+<a href='/leagues/NBA_2022_games.html'>NBA Schedules</a>
+<div>
+  <a href="/teams/MIL/2022_games.html">Team Schedules</a> and <a href="/leagues/NBA_2022_games.html">League Schedules</a>
+</div>
+<!-- End:Schedules -->
+  </li>
+
+
+  <li>
+    <!-- Begin:Standings -->
+<a href="/leagues/NBA_2022_standings.html">NBA Standings</a>
+<div>
+  <a href="/leagues/NBA_2022_standings.html">Today's Standings</a> and <a href="/friv/standings.fcgi">Standings for any date in history</a>
+</div>
+<!-- End:Standings -->
+  </li>
+
+  <li>
+    <a target='_blank' rel='noopener' href="https://stathead.com/basketball/">Stathead</a>
+    <div><strong>Player Finders</strong>: 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/player-season-finder.cgi">Season Finder</a>, 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/player-game-finder.cgi">Game Finder</a>, 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/pstreak.cgi">Streak Finder</a>,
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/pspan_finder.cgi">Player Span Finder</a>
+    </div>
+    <div><strong>Team Finders</strong>: 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/tsl_finder.cgi">Season Finder</a>, 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/tgl_finder.cgi">Game Finder</a>, 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/tstreak.cgi">Team Streak Finder</a>,
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/tscore.cgi">Team Score Finder</a>,
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/rivals.cgi">Team Rivalry Finder</a>
+    </div>
+    <div><strong>Other Finders</strong>: 
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/draft_finder.cgi">Draft Finder</a>,
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/h2h_finder.cgi">Head2Head Finder</a>,
+      <a target='_blank' rel='noopener' href="https://stathead.com/basketball/pcm_finder.cgi">Player Comparison Finder</a>
+    </div>
+  </li>
+
+  <li>
+    <a href="/coaches/">Coaches</a>
+    <div>
+      <a href="/coaches/gueriri01c.html">Richie Guerin</a>, 
+      <a href="/coaches/tomjaru01c.html">Rudy Tomjanovich</a>,
+      <a href="/coaches/obrieji99c.html">Jim O'Brien</a>, 
+      <a href="/coaches/fratemi99c.html">Mike Fratello</a>, 
+      <a href="/coaches/gentral99c.html">Alvin Gentry</a>
+    </div>
+  </li>
+
+  <li>
+    <a href="/awards/">Awards</a>
+    <div>
+      <a href="/awards/mvp.html">NBA MVP</a>, 
+      <a href="/awards/all_league.html">All-NBA</a>, 
+      <a href="/awards/dpoy.html">Defensive Player of the Year</a>, 
+      <a href="/awards/roy.html">Rookie of the Year</a>, 
+      <a href="/awards/all_rookie.html">All-Rookie</a>, 
+      <a href="/awards/hof.html">Hall of Fame</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/contracts/">NBA Contracts</a>
+    <div>
+      <a href="/contracts/">Main Index</a>,
+      <a href="/contracts/ATL.html">Team Payrolls</a>,
+      <a href="/contracts/players.html">Player Contracts</a>,
+      <a href="/contracts/glossary.html">Glossary</a>,
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/playoffs/">Playoffs</a>
+    <div>
+      <a href="/playoffs/NBA_2021.html">2021 NBA Playoffs</a>,
+      <a href="/playoffs/NBA_2020.html">2020 NBA Playoffs</a>, 
+      <a href="/playoffs/NBA_2019.html">2019 NBA Playoffs</a>, 
+      <a href="/playoffs/NBA_2018.html">2018 NBA Playoffs</a>, 
+      <a href="/playoffs/NBA_2017.html">2017 NBA Playoffs</a>, 
+      <a href="/playoffs/">Playoffs Series History</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/allstar/">All-Star Games</a>
+    <div>
+      <a href="/allstar/NBA_2022.html">2022 All-Star Game</a>, 
+      <a href="/allstar/NBA_2021.html">2021 All-Star Game</a>, 
+      <a href="/allstar/NBA_2020.html">2020 All-Star Game</a>, 
+      <a href="/allstar/NBA_2019.html">2019 All-Star Game</a>, 
+      <a href="/allstar/NBA_2018.html">2018 All-Star Game</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/draft/">NBA Draft</a>
+    <div>
+      <a href="/draft/NBA_2021.html">2021 Draft</a>,
+      <a href="/draft/NBA_2020.html">2020 Draft</a>, 
+      <a href="/draft/NBA_2019.html">2019 Draft</a>, 
+      <a href="/draft/NBA_2018.html">2018 Draft</a>, 
+      <a href="/draft/NBA_2017.html">2017 Draft</a>, 
+      <a href="/draft/NBA_2016.html">2016 Draft</a>, 
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/friv/">Frivolities</a>
+
+    <div>
+      <a href="/friv/birthdays.fcgi">Birthdays</a>,
+      <a href="/friv/colleges.fcgi">Colleges</a>,
+      <a href="/friv/high_schools.fcgi">High Schools</a>,
+      <a href="/friv/milestones.fcgi">Milestone Watch</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/executives/">Executives</a>
+    <div>
+      <a href='/executives/buforrc99x.html'>R.C. Buford</a>,
+      <a href='/executives/embrywa01x.html'>Wayne Embry</a>,
+      <a href='/executives/kastest99x.html'>Stan Kasten</a>,
+      <a href='/executives/aingeda01x.html'>Danny Ainge</a>,
+      <a href='/executives/nelsodo01x.html'>Don Nelson</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/referees/">Referees</a>
+    <div>
+      <a href='/referees/fortejo99r.html'>Joe Forte</a>,
+      <a href='/referees/brothto99r.html'>Tony Brothers</a>,
+      <a href='/referees/crawfda99r.html'>Dan Crawford</a>,
+      <a href='/referees/olesiro99r.html'>Ron Olesiak</a>,
+      <a href='/referees/jonesda99r.html'>David Jones</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/gleague/">G League Stats</a>
+    <div>
+      <a href='/gleague/players/'>Players</a>,
+      <a href='/gleague/teams/'>Teams</a>,
+      <a href='/gleague/years/'>Seasons</a>,
+      <a href='/gleague/leaders/'>Leaders</a>,
+      <a href='/gleague/awards/'>Awards</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/international/">International Basketball Stats</a>
+    <div>
+      <a href="/international/players/">Players</a>,
+      <a href="/international/teams/">Teams</a>,
+      <a href="/international/years/">Seasons</a>,
+      <a href="/international/leaders/">Leaders</a>,
+      <a href="/international/awards/">Awards</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/wnba/">WNBA</a>
+    <div>
+      <a href="/wnba/players/">Players</a>,
+      <a href="/wnba/teams/">Teams</a>,
+      <a href="/wnba/years/">Seasons</a>,
+      <a href="/wnba/leaders/">Leaders</a>,
+      <a href="/wnba/awards/">Awards</a>,
+      <a href="/wnba/allstar/">All-Star Games</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/nbl/">NBL</a>
+    <div>
+      <a href="/nbl/players/">Players</a>,
+      <a href="/nbl/teams/">Teams</a>,
+      <a href="/nbl/years/">Seasons</a>,
+      <a href="/nbl/leaders/">Leaders</a>,
+      <a href="/nbl/awards/">Awards</a>
+      ...
+    </div>
+  </li>
+
+  <li>
+    <a href="/about/">About</a>
+    <div>
+      <a href="/about/glossary.html">Glossary</a>,
+      <a href="/about/contact.html">Contact and Media Information</a>,
+      <a href="/about/nba-basketball-faqs.html">Frequently Asked Questions about the NBA, WNBA and Basketball</a>
+      ...
+    </div>
+  </li>
+</ul>
+
+
+
+			
+		</div><!-- div#site_menu -->
+		<div>
+			<div id="social" class="icon_group noload">
+	
+<div class="section_heading assoc_" id="_sh">
+  <span class="section_anchor" id="_link" data-label="We're Social...for Statheads" data-no-inpage="1"></span><h2>We're Social...for Statheads</h2>		
+</div>
+	<a href="tel://888-512-8907" data-tip="Call us on Telephone" data-label="Telephone" aria-label="Telephone" class="poptip"><svg class="icon phone"><use xlink:href="#ic-phone"></use></svg></a>
+	<a href="//www.sports-reference.com/blog/" data-tip="The Sports Reference Blog" data-label="Our Blog" aria-label="Our Blog" class="poptip"><svg class="icon wordpress"><use xlink:href="#ic-wordpress"></use></svg></a>
+	<a href="https://www.sports-reference.com/blog/feed/" data-tip="Our Blog's RSS Feed" data-label="RSS Feed" aria-label="RSS Feed" class="poptip"><svg class="icon rss"><use xlink:href="#ic-rss"></use></svg></a>
+		<a href="https://www.facebook.com/Basketball.Reference" data-tip="Basketball-Reference.com at Facebook" data-label="Facebook" aria-label="Facebook" class="poptip"><svg class="icon facebook"><use xlink:href="#ic-facebook"></use></svg></a>
+		<a href="https://twitter.com/bball_ref" data-tip="Basketball-Reference.com at Twitter" data-label="Twitter" aria-label="Twitter" class="poptip"><svg class="icon twitter"><use xlink:href="#ic-twitter"></use></svg></a>
+		<a href="https://instagram.com/basketball.reference" data-tip="Basketball-Reference.com at Instagram" data-label="Instagram" aria-label="Instagram" class="poptip"><svg class="icon instagram"><use xlink:href="#ic-instagram"></use></svg></a>
+		<a href="https://www.tiktok.com/@basketball.reference" data-tip="Basketball-Reference.com at TikTok" data-label="TikTok" aria-label="TikTok" class="poptip"><svg class="icon tiktok"><use xlink:href="#ic-tiktok"></use></svg></a>
+	<a href="https://reddit.com/r/SportsReference" data-tip="Reddit/r/SportsReference" data-label="Reddit/r/SR" aria-label="Reddit/r/SR" class="poptip"><svg class="icon reddit"><use xlink:href="#ic-reddit"></use></svg></a>
+	<a href="https://www.youtube.com/user/sportsreference" data-tip="YouTube/SportsReference" data-label="YouTube" aria-label="YouTube" class="poptip"><svg class="icon youtube"><use xlink:href="#ic-youtube"></use></svg></a>
+	<a href="https://www.linkedin.com/company/sports-reference-llc" data-tip="Follow SR on LinkedIn" data-label="LinkedIn" aria-label="LinkedIn" class="poptip"><svg class="icon linkedin"><use xlink:href="#ic-linkedin"></use></svg></a>
+	<a href="https://www.paypal.me/sportsref" data-tip="Send us money via PayPal" data-label="PayPal" aria-label="PayPal" class="poptip"><svg class="icon paypal"><use xlink:href="#ic-paypal"></use></svg></a>
+
+<p>Every <a href="https://www.sports-reference.com/blog/sports-reference-social-media/">Sports Reference Social Media Account</a></p>
+<p><strong>Site Last Updated:</strong> Tuesday, June 28,  4:37AM
+</p>
+<p><a href="https://www.sports-reference.com/feedback/" class="button" style="display: block">Question, Comment, Feedback, or Correction?</a></p>
+
+<p><a style="display: block" href="https://www.basketball-reference.com/email" class="button">Subscribe to our Free Email Newsletter</a></p>
+
+<p><a style="background-color:#155ca9; color: #fff;" href="https://www.sports-reference.com/this-month.html?&utm_medium=sr&utm_source=bbr&utm_campaign=site-footer-twisr" class="button alt">This Month in Sports Reference<br><em>Find out when we add a feature or make a change</em></a></p>
+
+<p><a href="https://www.sports-reference.com/blog/ways-sports-reference-can-help-your-website/?utm_medium=sr&utm_source=bbr&utm_campaign=site-footer-ways-help">Do you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.  Find out more.</a></p>
+
+
+</div><!-- div#social -->
+
+			<div id="tips_tricks">
+   
+<div class="section_heading assoc_tips" id="tips_sh">
+  <span class="section_anchor" id="tips_link" data-label="FAQs, Tip &amp; Tricks" data-no-inpage="1"></span><h2>FAQs, Tip &amp; Tricks</h2>		
+</div>
+   <ul>
+<!-- no Local/FooterTipsTricks.tt2 -->
+           <li><a href="//www.sports-reference.com/blog/category/tips-and-tricks/">Tips and Tricks from our Blog.</a></li>
+           <li><a href="/linker/">Do you have a blog? Join our linker program.</a></li>
+	   <li><a href="https://www.sports-reference.com/blog/category/stathead-tutorial-series/">Watch our How-To Videos to Become a Stathead</a></li>
+	   <li><a href="//stathead.com/?ref=bbr">Subscribe to Stathead and get access to more data than you can imagine</a></li>
+   </ul>
+</div><!-- div#tips_tricks -->
+
+			<div id="credits">
+				<p>All logos are the trademark &amp; property of their owners and not Sports Reference LLC.  We present them here for purely educational purposes.
+				<a href="https://www.sports-reference.com/blog/2016/06/redesign-team-and-league-logos-courtesy-sportslogos-net/">Our reasoning for presenting offensive logos.</a></p>
+				<p>
+					
+					Logos were compiled by the amazing <a href="http://sportslogos.net/">SportsLogos.net.</a>
+				</p>
+				
+<div class="notice">
+<p>Data Provided By
+	<a href="https://www.sportradar.com/" rel="nofollow"><img alt="SportRadar" border=0 width=275 src="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/images/klecko/sportradar.png"  style="background-color:#666; padding:.5em; border-radius:.25em"></a>
+	the official stats partner of the NBA.</p>
+	
+	
+</div>
+
+     <p>Copyright &copy; 2000-2022 <a href="//www.sports-reference.com/">Sports Reference LLC</a>. All rights reserved.</p>
+
+
+			</div><!-- div#credits -->
+		</div>
+	</div>
+
+	<ul id="site_dirs" class="notranslate bullets-inline">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li class="current"><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+
+
+	
+	
+	
+	<li><a href="https://fbref.com/es/">Fútbol</a></li>
+
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+    <li><a href="https://stathead.com/?utm_source=web&amp;utm_medium=bbr&amp;utm_campaign=sr-nav-bar-top-link">Stathead</a></li>
+    <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+
+</ul>
+
+	<div id="about">
+  <a href="//www.sports-reference.com/about.html">About</a> &bull;
+  <a href="//www.sports-reference.com/termsofuse.html">Conditions &amp; Terms of Service</a> &bull;
+  <a href="//www.sports-reference.com/advertise.html">Advertise With Us</a>
+  <br><br>
+  <a href="//www.sports-reference.com/privacy.html">Privacy Policy</a> &bull;
+  <a href="//www.sports-reference.com/gambling-revenue-policy.html">Gambling Revenue Policy</a> &bull;
+  <a href="//www.sports-reference.com/accessibility-policy.html">Accessibility Policy</a> &bull;
+  <a href="//www.sports-reference.com/data_use.html">Use of Data</a>
+  </div>
+  <!-- div#about -->
+</div><!-- div#footer -->
+
+</div><!-- div#wrap -->
+<!-- yes sticky url:  https://www.basketball-reference.com/leaders/pts_per_g_top_10.html -->
+<div id="fs-select-footer"></div>
+      
+
+
+
+<!-- rails -->
+
+<div class="adblock rails  left"><!-- div#fs_fs_rails_left  -->
+<div align="center" id="div-gpt-ad-160x600-1">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-160x600-1');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-160x600-1'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_rails_left -->
+</div>
+<div class="adblock rails right"><!-- div#fs_fs_rails_right  -->
+<div align="center" id="div-gpt-ad-160x600-2">
+    <script data-cfasync="false" type='text/javascript'>
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree) {
+    }
+    else {
+        console.log('push ad:div-gpt-ad-160x600-2');
+        freestar.queue.push(function() { googletag.display('div-gpt-ad-160x600-2'); });
+    }
+    </script>
+</div>
+<!-- /div.#fs_fs_rails_right -->
+</div>
+
+
+<!-- sr_gender is used in Templates/Assets/GoogleAnalytics.tt2 -->
+<script>var sr_gender = "";</script>
+<!-- Google Analytics --> <!-- new extra script, apparently we only use one of these, regardless of the number of products... https://developers.google.com/tag-platform/gtagjs/install#google-analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1890630-2"></script> <script> var sr_cookie = vjs_readCookie('stathead_user') || ''; var sr_cookie_split = sr_cookie.split("::"); var sr_session_key = (sr_cookie_split.length > 1)?sr_cookie_split[2]:''; var sr_ad_free_key = "4"; var sr_site_id = "bbr"; var sr_is_subscriber = (sr_ad_free_key && sr_session_key.vjs_isMatch(new RegExp(sr_ad_free_key + "$"))) || sr_session_key.vjs_isMatch(/1$/) || (sr_site_id === 'stathead' && sr_session_key.vjs_isMatch(/[0-7]$/)); var sr_is_user = sr_cookie !== null && sr_cookie !== ''; var sr_seen_modal = vjs_readCookie('modal_ad') !== null; var sr_device = 'unk'; if (Modernizr.phone) { sr_device = 'phone'; } else if (Modernizr.tablet) { sr_device = 'tablet'; } else if (Modernizr.laptop) { sr_device = 'laptop'; } else if (Modernizr.desktop) { sr_device = 'desktop'; } var sr_stathead_site = vjs_readCookie('stathead_site') || ''; var sr_stathead_type = vjs_readCookie('stathead_type') || ''; /* new gtag theres an extra script tag we need to add that I'm not sure how that work for multiple ID's for GA, docs say to ignore it??? https://developers.google.com/tag-platform/gtagjs/install here they have 3 but just use the last one? */ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); /* OLD, could not find require within reference docs https://developers.google.com/tag-platform/gtagjs/reference ga('require', 'linkid', 'linkid.js'); ga('require', 'ecommerce', 'ecommerce.js'); ga('require', 'displayfeatures'); */ /* new, creates+sends+sets */ /* for fbref we want to allow for tracking of 'men' and 'women' pages for leagues, clubs and players, so we can track the most popular women players easily. In Footer.tt2 there is a place to set sr_gender. */ gtag('config', 'UA-1890630-2', { 'dimension1': sr_is_subscriber, 'dimension2': sr_is_user, 'dimension3': typeof(sr_gender) === 'string'? sr_gender: null, 'dimension4': sr_stathead_type, 'dimension5': sr_stathead_site, 'metric1': Modernizr.viewport_width }); /* all sr-sites together */ /* new, I believe linker works as a parameter here, although there didn't seem to be a simple "true" value to set besides this one https://developers.google.com/analytics/devguides/collection/gtagjs/cross-domain */ gtag('config', 'UA-1890630-9', { 'linker': { 'accept_incoming': true }, 'dimension1': sr_site_id, 'dimension2': sr_is_subscriber, 'dimension3': sr_is_user, 'dimension4': sr_seen_modal, 'dimension5': sr_device, 'dimension6': 'null', 'metric1': Modernizr.viewport_width, 'dimension8': (typeof sr_test == 'undefined')?'no-test':( sr_test ? 'non-blocking':'blocking') }); /* new, cribbed from: https://www.axllent.org/docs/track-outbound-links-with-gtag-js/ */ function _gaLt(event) { /* if GA is blocked or not loaded, or not main|middle|touch click then don't track */ if (typeof gtag == "undefined" || (event.which != 1 && event.which != 2)) { return; } var el = event.srcElement || event.target; /* loop up the DOM tree through parent elements if clicked element is not a link (eg: an image inside a link) */ while ( el && (typeof el.tagName == "undefined" || el.tagName.toLowerCase() != "a" || !el.href) ) { el = el.parentNode; } /* if a link with valid href has been clicked */ if (el && el.href) { var link = el.href; /* only if it is an external link */ if (link.indexOf(location.host) == -1 && !link.match(/^javascript\:/i)) { /* is target set and _(self|parent|top) */ var target = el.target && !el.target.match(/^_(self|parent|top)/i) ? el.target : false; /* assume a target if (ctrl|shift|meta)-click */ if ( event.ctrlKey || event.shiftKey || event.metaKey || event.which == 2 ) { target = "_blank"; } /* tracker has not yet run */ var hbrun = false; /* hitBack to open link in same window after tracker */ var hitBack = function () { /* run once only */ if (hbrun) return; hbrun = true; window.location.href = link; }; if (target) { /* if target opens a new window then just track */ gtag("event", link, { event_category: "Outgoing Links", event_label: document.location.pathname + document.location.search, }); } else { /* Prevent standard click, track then open */ if (event.type == "mousedown") { var blockClick = function (event) { event.preventDefault(); /* remove click event after click */ el.removeEventListener("click", boundClick); }; /* bind the click event */ var boundClick = blockClick.bind(event); /* prevent the click */ el.addEventListener("click", boundClick); } event.preventDefault ? event.preventDefault() : (event.returnValue = !1); /* send event with callback */ gtag("event", link, { event_category: "Outgoing Links", event_label: document.location.pathname + document.location.search, event_callback: hitBack, }); /* Run hitBack again if GA takes longer than 1 second */ setTimeout(hitBack, 1000); } } } } var _w = window; /* Use "click" if touchscreen device, else "mousedown" */ var _gaLtEvt = "ontouchstart" in _w ? "click" : "mousedown"; /* Attach the event to all clicks in the document after page has loaded */ _w.addEventListener( "load", function () { document.body.addEventListener(_gaLtEvt, _gaLt, !1); }, !1 ); </script><!-- End Google Analytics -->
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20503178.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+<!-- SR -->
+</html>
+
+

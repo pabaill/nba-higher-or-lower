@@ -1,0 +1,41 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 30vw;
+  border: 0.5vw solid;
+  background: radial-gradient(circle, rgba(207,207,209,1) 0%, rgba(146,146,146,1) 50%, rgba(94,99,100,1) 100%);;
+  color: #cee6f6;
+  margin-left: 15vw;
+  margin-right: 12vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+h1 {
+  font-size: 2.5vw;
+  text-align: center;
+  text-overflow: ellipsis;
+  margin-top: -0.5vw;
+  margin-bottom: 0.5vw;
+}
+h2 {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    text-align: left;
+    flex: 1;
+    margin-bottom: 0vw;
+    margin-top: 0vw;
+  }
+img {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhs0hCoR98YPmRQak_0dQPNOaVdgszdGll6Q&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 8vw;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0vw;
+  margin-bottom: 15vw;
+  width: 14vw;
+  height: 21vw;
+}

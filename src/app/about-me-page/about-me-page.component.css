@@ -1,0 +1,31 @@
+h1 {
+    margin-top: 2vw;
+    text-align: center;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 3vw;
+}
+.bio {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+img {
+    float: left;
+    border: 0.75vw;
+    border-style: ridge;
+    border-color: rgb(101, 64, 181);
+    width: 30vw;
+    margin-left: 2vw;
+}
+h2 {
+    float: right;
+    text-align: center;
+    font-size: 2vw;
+    margin: 1vw 10vw 0 5vw;
+    border: 0.5vw;
+    border-style: solid;
+    font-family: 'Raleway', 'sans-serif';
+    width: 50vw;
+
+}

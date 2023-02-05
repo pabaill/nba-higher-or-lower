@@ -1,0 +1,14 @@
+<header>
+    <h1>Higher or Lower?</h1>
+    <p>High Score: {{highScore}}</p>
+    <p>Current Streak : {{score}}</p>
+  </header>
+  <section>
+    <app-player-card
+      *ngFor="let pl of players"
+      [player]="pl"></app-player-card>
+  </section>
+<ng-template #waiting><div class="questionText">Who had more {{currentCategory}}?</div>
+  <button mat-raised-button color="primary" (click)="checkResult(0)" class="playerChoiceLeft">Left</button>
+  <button mat-raised-button color="warn" (click)="checkResult(1)" class="playerChoiceRight">Right</button>
+</ng-template>

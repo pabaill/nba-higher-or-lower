@@ -1,0 +1,40 @@
+:host {
+    margin : 5vw;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+section {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.questionText {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    font-size: 3vw;
+}
+.playerChoiceLeft {
+    float: left;
+    margin-left: 21vw;
+}
+.playerChoiceRight {
+    float: right;
+    margin-right: 23vw;
+}
+mat-icon {
+    text-align: center;
+    object-position: center;
+    color: green;
+    font-size: 5vw;
+}
+.correct {
+    color: green;
+}
+.incorrect {
+    color: red;
+}
